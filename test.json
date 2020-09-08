@@ -1,0 +1,80 @@
+ {
+    "event": "group.participant_joined",
+    "microtime": 1598522960.462287,
+    "user": {
+        "id": 31823,
+        "name": "Carine Bournez",
+        "given": "Carine",
+        "family": "Bournez",
+        "work-title": "robot",
+        "connected-accounts": [
+            {
+                "created": "2017-03-20T12:42:43+00:00",
+                "updated": "2017-07-17T16:44:11+00:00",
+                "service": "github",
+                "identifier": "7301360",
+                "nickname": "caribouW3",
+                "profile-picture": "https:\/\/avatars1.githubusercontent.com\/u\/7301360?v=4",
+                "href": "https:\/\/github.com\/caribouW3"
+            }
+        ],
+        "discr": "user",
+        "_links": {
+            "self": {
+                "href": "https:\/\/api.w3.org\/users\/600t7wbuwqkgs4ooco00sc8g84w0wwo"
+            },
+            "affiliations": {
+                "href": "https:\/\/api.w3.org\/users\/600t7wbuwqkgs4ooco00sc8g84w0wwo\/affiliations"
+            },
+            "groups": {
+                "href": "https:\/\/api.w3.org\/users\/600t7wbuwqkgs4ooco00sc8g84w0wwo\/groups"
+            },
+            "specifications": {
+                "href": "https:\/\/api.w3.org\/users\/600t7wbuwqkgs4ooco00sc8g84w0wwo\/specifications"
+            },
+            "participations": {
+                "href": "https:\/\/api.w3.org\/users\/600t7wbuwqkgs4ooco00sc8g84w0wwo\/participations"
+            },
+            "chair_of_groups": {
+                "href": "https:\/\/api.w3.org\/users\/600t7wbuwqkgs4ooco00sc8g84w0wwo\/chair-of-groups"
+            },
+            "team_contact_of_groups": {
+                "href": "https:\/\/api.w3.org\/users\/600t7wbuwqkgs4ooco00sc8g84w0wwo\/team-contact-of-groups"
+            }
+        }
+    },
+    "group": {
+        "id": 104908,
+        "name": "Inclusion and Diversity Community Group",
+        "is_closed": false,
+        "description": "<p>The mission of the W3C Inclusion and Diversity Community Group (ID CG) is to increase the presence of under-represented groups at the W3C, and strengthen W3C culture by supporting diversity. To serve this mission, the CG will:<\/p>\n<ul><li>provide a space to share experiences and information;<\/li>\n<li>produce best practices and use case documents regarding gathering data, reporting\/feedback mechanisms, and practical ways to support each other;<\/li>\n<li>advise the W3C Management (W3M), Advisory Board (AB), Advisory Committee (AC), and <a href=\"http:\/\/www.w3.org\/community\/pwe\/\" rel=\"nofollow\">Positive Work Environment CG<\/a> about potential enhancements to our working environment to better support inclusion and diversity.<\/li>\n<\/ul><p>This group will not produce Specifications.<\/p>",
+        "discr": "w3cgroup",
+        "_links": {
+            "self": {
+                "href": "https:\/\/api.w3.org\/groups\/104908"
+            },
+            "homepage": {
+                "href": "https:\/\/www.w3.org\/community\/idcg\/"
+            },
+            "users": {
+                "href": "https:\/\/api.w3.org\/groups\/104908\/users"
+            },
+            "services": {
+                "href": "https:\/\/api.w3.org\/groups\/104908\/services"
+            },
+            "chairs": {
+                "href": "https:\/\/api.w3.org\/groups\/104908\/chairs"
+            },
+            "join": {
+                "href": "https:\/\/www.w3.org\/2004\/01\/pp-impl\/104908\/join"
+            },
+            "pp-status": {
+                "href": "https:\/\/www.w3.org\/2004\/01\/pp-impl\/104908\/status"
+            },
+            "participations": {
+                "href": "https:\/\/api.w3.org\/groups\/104908\/participations"
+            }
+        },
+        "type": "community group"
+    }
+}

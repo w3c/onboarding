@@ -1,8 +1,9 @@
+"use strict";
+
 const express = require("express");
 const attendant = require ("./flight-attendant");
 const bodyParser = require("body-parser");
 const { nextTick } = require("process");
-
 const app = express();
 const env = require('dotenv').config({path: __dirname + '/.env'});
 const PORT = process.env['PORT'] || 3000;
@@ -17,7 +18,7 @@ app.post("/onboard", jsonParser, (req, res, next) => {
     }
     if (req.header('x-w3c-webhook') == WEBHOOK_URL){
       try {
-        attendant.welcome(req.body.user.id, req.body.group.id);
+        attendant.welcome(req.body.user.id, req.body.user.name, req.body.group.id);
         res.status(200).end();
       }
       catch (err){
