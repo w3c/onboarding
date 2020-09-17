@@ -74,7 +74,7 @@ function getGroupTemplate(groupid){
     fetch('https://raw.githubusercontent.com/w3c/onboarding/master/template/'+groupid)
     .then( res => {
       if (res.status === 200){
-        r = res.text;
+        r = res.text();
         resolve(r);
       } else {
         console.log("custom template:" + res.status + " " + res.statusText);
