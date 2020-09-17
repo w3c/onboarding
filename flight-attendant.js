@@ -17,7 +17,7 @@ function welcome (userid, username, groupid, cb) {
     .then (group => {
       // craftMessage(username, group, address)
       if (process.env.NODE_ENV == 'debug') {
-        console.log("crafting message %s %s %s", username, group, address);
+        console.log("crafting message for %s %s joining group %s (%s)", username, address, group.name, group.id);
       }
       let mail = {};
       if (process.env.NODE_ENV == 'production') {
