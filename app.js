@@ -18,10 +18,15 @@ app.post("/onboard", jsonParser, (req, res, next) => {
     }
     if (req.header('x-w3c-webhook') == WEBHOOK_URL){
       try {
-        attendant.welcome(req.body.user.id, req.body.user.name, req.body.group.id);
-        res.status(200).end();
+        attendant.welcome(req.body.user.id, req.body.user.name, req.body.group.id, 
+          function (err, result) {
+            if (err){
+              res.status(500).end();
+            }
+            res.status(200).end()});
       }
       catch (err){
+        console.log(err);
         res.status(400).end();
       }  
     } else {

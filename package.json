@@ -16,6 +16,14 @@
   "homepage": "https://github.com/w3c/onboarding#readme",
   "dependencies": {
     "node-w3capi": "^1.8.0",
-    "nodemailer": "^6.4.11"
+    "nodemailer": "^6.4.11",
+    "twig": "^1.15.2"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
