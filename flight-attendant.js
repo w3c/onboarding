@@ -32,9 +32,13 @@ function welcome (userid, username, groupid, cb) {
           data: template
         });
         mail.text = t.render( { group: group } )
-        email.email(mail)
-        .then ( res => { cb (null,'ok'); })
-        .catch (err => { console.log (err); cb(err,'error'); });
+        if (mail.text != ''){ // do not send empty messages
+          email.email(mail)
+          .then ( res => { cb (null,'ok'); })
+          .catch (err => { console.log (err); cb(err,'error'); });
+          } else {
+            cb (null,'ok');
+          }
       })
       .catch (err => { 
         console.log ('email template not found');
@@ -100,6 +104,5 @@ function getGroupTemplate(groupid){
     });  
   });
 }
-
 
 exports.welcome = welcome; 
