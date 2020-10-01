@@ -17,18 +17,26 @@ app.post("/onboard", jsonParser, (req, res, next) => {
       console.log(req.headers);
     }
     if (req.header('x-w3c-webhook') == WEBHOOK_URL){
-      try {
-        attendant.welcome(req.body.user.id, req.body.user.name, req.body.group.id, 
-          function (err, result) {
-            if (err){
-              res.status(500).end();
-            }
-            res.status(200).end()});
+      if (req.body.event == "group.participant_joined"){
+        try {
+          attendant.welcome(req.body.user.id, req.body.user.name, req.body.group.id, 
+            function (err, result) {
+              if (err){
+                res.status(500).end();
+              }
+              res.status(200).end()});
+        }
+        catch (err){
+          console.log(err);
+          res.status(400).end();
+        }
+      }  else { 
+        if (process.env.NODE_ENV == 'debug'){
+          console.log ("not a join event ");
+        }
+        // do nothing on 'left' events
+        res.status(200).end();
       }
-      catch (err){
-        console.log(err);
-        res.status(400).end();
-      }  
     } else {
       console.log('unexpected or forbidden post from '+  (req.headers['x-forwarded-for'] || req.connection.remoteAddress));
       res.status(403).end();
