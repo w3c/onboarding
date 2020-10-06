@@ -9,52 +9,59 @@ const Twig = require('twig');
 const { resolve } = require('path');
 twig = Twig.twig;       // Render function
 
-function welcome (userid, username, groupid, cb) {
+function welcome(userid, username, groupid, cb) {
   ldapquery.searchMail(userid)
-  .then (res => {
-    address = res ;
-    getGroupInfo(groupid)
-    .then (group => {
-      // craftMessage(username, group, address)
-      if (process.env.NODE_ENV == 'debug') {
-        console.log("crafting message for %s %s joining group %s (%s)", username, address, group.name, group.id);
-      }
-      let mail = {};
-      if (process.env.NODE_ENV == 'production') {
-        mail = { to: address, from: "carine+onboarding@w3.org" }
-      } else {
-        mail = { to: "carine@w3.org", from: "carine+test@w3.org" }
-      }
-      mail.subject = "[W3C onboarding] Welcome to the " + group.name ;
-      getGroupTemplate(group.id)
-      .then (template => {
-        var t = twig({
-          data: template
-        });
-        mail.text = t.render( { group: group } )
-        if (mail.text != ''){ // do not send empty messages
-          email.email(mail)
-          .then ( res => { cb (null,'ok'); })
-          .catch (err => { console.log (err); cb(err,'error'); });
-          } else {
-            cb (null,'ok');
+    .then(res => {
+      address = res;
+      getGroupInfo(groupid)
+        .then(group => {
+          // craftMessage(username, group, address)
+          if (process.env.NODE_ENV == 'debug') {
+            console.log("crafting message for %s %s joining group %s (%s)", username, address, group.name, group.id);
           }
-      })
-      .catch (err => { 
-        console.log ('email template not found');
-        mail = { 
-          to: "carine@w3.org",
-          from: "carine+onboarding@w3.org",
-          subject: "alert",
-          text: "no template found! system is borken or GH is down!" 
-        }
-        email.email(mail)
-        .then ( res => { cb (null,'ok'); })
-        .catch (err => { console.log (err); cb(err,'error'); });
-      })  
+          let mail = {};
+          getCc(group.id)
+            .then(cc => {
+              if (process.env.NODE_ENV == 'production') {
+                mail = { to: address, from: "sysbot+onboarding@w3.org", cc: cc };
+              } else {
+                console.log("Cc: %s\n", cc);
+                mail = { to: "carine@w3.org", from: "carine+test@w3.org" };
+                mail.headers = { 'x-onboarding-test-cc' : cc } ;
+              }
+              mail.subject = "[W3C onboarding] Welcome to the " + group.name;
+              getGroupTemplate(group.id)
+                .then(template => {
+                  var t = twig({
+                    data: template
+                  });
+                  mail.text = t.render({ group: group })
+                  if (mail.text != '') { // do not send empty messages
+                    email.email(mail)
+                      .then(res => { cb(null, 'ok'); })
+                      .catch(err => { console.log(err); cb(err, 'error'); });
+                  } else {
+                    cb(null, 'ok');
+                  }
+                })
+                .catch(err => {
+                  console.log('email template not found');
+                  mail = {
+                    to: "carine@w3.org",
+                    from: "carine+onboarding@w3.org",
+                    subject: "alert",
+                    text: "no template found! system is borken or GH is down!"
+                  }
+                  email.email(mail)
+                    .then(res => { cb(null, 'ok'); })
+                    .catch(err => { console.log(err); cb(err, 'error'); });
+                })
+            })
+            .catch(err => console.log(err));
+        })
+        .catch(err => console.log(err));
     })
-  })
-  .catch( err => console.log(err) ); 
+    .catch(err => console.log(err));
 } 
 
 function getGroupInfo(group){
@@ -70,6 +77,43 @@ function getGroupInfo(group){
       resolve(r) ;
       }); 
     });
+}
+
+function getCc(group){
+  return new Promise(function (resolve, reject) {
+    var r ;
+    w3capi.apiKey = process.env.APIKEY;
+    w3capi.group(group).chairs().fetch({embed: true}, (err, chairs) => {
+      if (err){ 
+        console.error('error: ' + err.message);
+        reject(err);
+      } 
+      w3capi.group(group).teamcontacts().fetch({embed: true}, (err, tcs) => {
+        if (err){ 
+          console.error('error: ' + err.message);
+          reject(err);
+        } 
+        Promise.all(chairs.map(chair => ldapquery.searchMail(chair.id)))
+        .then (chairs => {
+          r = chairs; 
+          Promise.all(tcs.map(tc => ldapquery.searchMail(tc.id)))
+          .then (tcs => {
+            r = r + ',' + tcs;
+            resolve(r) ;
+          })
+          .catch (err => {
+           console.log ("team contacts not found:\n" + err);
+           resolve(r) ;
+          });
+        })
+        .catch ( err => {
+           console.log ("chairs not found;\n" + err);
+           r = 'carine+onboarding@w3.org';  // this will be the case for CGs with a template
+           resolve(r) ;
+        })  
+      }); 
+    });
+  });  
 }
 
 function getGroupTemplate(groupid){
