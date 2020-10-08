@@ -6,7 +6,7 @@ This tool listens to a W3C webhook and sends emails to
 new participants in a Working/Interest Group when they join.
 
 Groups can have a customized welcome message sent automatically, by adding their template to this repository 'template' subdirectory. 
-Use your group's numeric id (the id exposed by the W3C API, the same you're using in specs to refer to its patent status) as file name, otherwise the 'default' template will be used instead.
+Use your group's numeric id (the id exposed by the W3C API, see FAQ below) as file name, otherwise the 'default' template will be used instead.
 Team contacts and chairs will be Cc'd.
 
 There is no message sent to Community/Business Groups new participants by default, but if the system finds a customized message for a CG/BG, it will be sent 
@@ -30,3 +30,10 @@ or
 `{{ group._links.pp-status.href }}`   
 (equivalent to `https://www.w3.org/2004/01/pp-impl/{{ group.id }}/status`)
 
+FAQ
+===
+
+1. __I don't know my group's id, how do I find it?__  
+It is the same numeric id that you use for links to Patent status in specs (links from https://www.w3.org/2004/01/pp-impl/). 
+It is exposed through the W3C API (see (https://api.w3.org/doc) and if you don't have an API key you can find it
+in other tools e.g. https://www.w3.org/PM/Groups/browse.html (choose your group in the drop-down menu, the value will then show up in the gid parameter of the URI) or https://w3c.github.io/Guide/participant/group.html.
