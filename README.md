@@ -6,7 +6,7 @@ This tool listens to a W3C webhook and sends emails to
 new participants in a Working/Interest Group when they join.
 
 Groups can have a customized welcome message sent automatically, by adding their template to this repository 'template' subdirectory. 
-Use your group's id (the same you're using in specs to refer to its patent status) as file name, otherwise the 'default' template will be used instead.
+Use your group's numeric id (the id exposed by the W3C API, the same you're using in specs to refer to its patent status) as file name, otherwise the 'default' template will be used instead.
 Team contacts and chairs will be Cc'd.
 
 There is no message sent to Community/Business Groups new participants by default, but if the system finds a customized message for a CG/BG, it will be sent 
