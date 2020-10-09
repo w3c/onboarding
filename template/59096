@@ -1,0 +1,30 @@
+Welcome to the W3C {{ group.name }}!
+
+The Working Group does most of its work on Github:
+  https://github.com/w3c/pointerevents/
+
+The Working Group is focused on revising the Pointer Events
+specification:
+  https://www.w3.org/TR/pointerevents/upcoming/
+
+If you plan to contribute changes to the specifications by providing
+pull requests, please link your Github and W3C accounts at:
+  https://www.w3.org/users/myprofile/connectedaccounts
+
+In addition, the Working Group uses its public mailing list for
+administrative announcements and coordination on topics which require
+broader attention:
+  https://lists.w3.org/Archives/Public/public-pointer-events/
+
+The group only meets in video conferences on a monthly basis. Call
+announcement and minutes are sent to the public mailing list.
+  http://w3.org/brief/NTIx
+
+https://w3c.github.io/Guide/participant/group.html?gid={{ group.id }}
+is a complete map of useful resources for new participants in this group.
+
+Should you have any question on how to get up to speed with the
+Working Group, please get in touch with the W3C Staff Contact of the group:
+  Philippe Le Hegaret <plh@w3.org>
+
+Again, warm welcome to the group and to W3C!
