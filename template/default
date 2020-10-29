@@ -1,5 +1,5 @@
-{% if group.type == 'working group' or group.type == 'interest group'  %}
-Welcome to the W3C {{ group.name }}
+{% if group.type == 'working group'  %}
+Welcome to the W3C {{ group.name }}!
 
 The following link will lead you to a "facility map" 
 to essential information about this group and other W3C resources.
