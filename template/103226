@@ -7,12 +7,5 @@ We use the mailing list public-web-adv@w3.org and the github repository
 https://github.com/w3c/web-advertising/
 See https://github.com/w3c/web-advertising/blob/master/BG-how-we-work.md 
 
-
-The following link will lead you to a "facility map" 
-with additional information about the group and W3C resources.
-
-https://w3c.github.io/Guide/participant/group.html?gid={{ group.id }}
-
-
 Should you have any questions, please contact the W3C team contacts.
 {% endif %}
