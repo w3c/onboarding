@@ -1,0 +1,56 @@
+Welcome to the W3C {{ group.name }}!
+
+As with all W3C work, the https://www.w3.org/Consortium/cepc/ applies to everything we do.
+
+Please could you send a short introduction to the member-tt@w3.org mailing list, both to let other members know about you, and to verify that you can send messages to that (member only) list?
+
+The Working Group does most of its work on
+Github, with each of our specifications developed in its own repository
+(as listed in https://www.w3.org/PM/Groups/repositories.html?gid={{ group.id }}).
+
+If you plan to contribute changes to the specifications by providing
+pull requests, please link your Github and W3C accounts at:
+  https://www.w3.org/users/myprofile/connectedaccounts
+
+In addition, the Working Group uses its public mailing lists for
+administrative announcements and coordination on topics which require
+broader attention:
+  https://lists.w3.org/Archives/Public/public-tt/
+As a participant to the Working Group, you have been automatically
+subscribed to that mailing list.
+
+The group meets in audio conferences roughly on a weekly basis, usually
+for one hour beginning at 1600 UTC (this time is usually adjusted during
+DST to 1500 UTC, but the date of the switch is discussed before each
+change).
+
+The weekly teleconference meeting agenda is published by email to the
+public reflector and worked on as a GitHub issue. Upcoming meetings
+have issues labelled as Agenda and can be found at:
+  https://github.com/w3c/ttwg/issues?q=is%3Aopen+is%3Aissue+label%3Aagenda
+
+The group usually meets face-to-face once or twice a year, but given the
+current circumstances, it is not clear when we might next meet F2F.
+
+During meetings, the group uses IRC to scribe and manage the speaker queue.
+An IRC webpage is provided with the agenda; you may also find it helpful
+to use a dedicated IRC client.
+
+A timeline of specifications currently being worked on is available at:
+  https://www.w3.org/AudioVideo/TT/wip/TTWG-2019-spec-timeline.html
+
+The group sometimes uses a wiki for managing documents such as
+implementation reports, registries, and ideas. This can be found at:
+  https://www.w3.org/wiki/TimedText
+
+https://w3c.github.io/Guide/participant/group.html?gid={{ group.id }}
+is a complete map of useful resources for new participants in this group.
+{{ group._links.homepage.href }} is also a useful resource.
+
+Should you have any question on how to get back up to speed with the
+Working Group, please get in touch with the Staff Contact of the group:
+Atushi Shimono <atsushi@w3.org>
+
+Again, warm welcome to the group and to W3C!
+
+Gary Katsevman and Nigel Megitt, Chairs
