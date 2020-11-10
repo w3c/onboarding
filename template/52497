@@ -1,4 +1,4 @@
-Welcome to the W3C {{ group.name }}, known as PING.
+Welcome to the W3C Privacy Interest Group, known as PING.
 
 We are delighted to have you join us. Our mission is to improve privacy on the Web.
 
@@ -8,19 +8,19 @@ A couple of items of information that may be helpful.
 
 * You have been subscribed to the public W3C privacy activity email list, used by PING, public-privacy@w3.org. We will invite you to the PING Slack workspace. Please look for a separate email.
 
-* We meet the 1st and 3rd Thursday of each month.
+* We meet the 1st and 3rd Thursday of each month at noon US Eastern, 9AM Pacific (1600 or 1700 UTC depending on the season).
 
-    Zoom link: https://mit.zoom.us/j/823321737?pwd=cUs5QlVNVXJvZmFnanZjdmJEQWI4Zz09
-
-    Cryptpad (for taking minutes): https://cryptpad.w3ctag.org/code/#/2/code/edit/4ht9YHtVS9AB4UBlh-oPvHej/
+    Meeting coordinates can be found at: https://www.w3.org/Privacy/IG/
+    
+    We use a shared Cryptpad for minutes, also linked above.
 
 * You can find PING on Github here - https://github.com/w3cping
 
 * As background, you might want to read these two documents as they provide guidance to spec authors to help them reduce privacy risks and fingerprinting surface area in their specs:
 
-	  Self-review questionnaire: Security and Privacy - https://www.w3.org/TR/security-privacy-questionnaire/
+    Self-review questionnaire: Security and Privacy - https://www.w3.org/TR/security-privacy-questionnaire/
 
-	  Mitigating Browser Fingerprinting in Web Specifications - https://www.w3.org/TR/fingerprinting-guidance/
+    Mitigating Browser Fingerprinting in Web Specifications - https://www.w3.org/TR/fingerprinting-guidance/
 
 Everyone who is involved in PING is expected to behave in accordance with the W3C Code of Ethics and Professional Conduct (CEPC): https://www.w3.org/Consortium/cepc/
 
