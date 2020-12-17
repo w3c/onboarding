@@ -1,0 +1,20 @@
+Welcome to the {{ group.name }}.
+
+Please read this email carefully. It'll only take a minute, and it'll help make sure you find the HTML WG a cheerfully productive place to be.
+
+Everyone who is involved in the {{ group.name }} is expected to behave in accordance with the W3C Code of Ethics and Professional Conduct (CEPC):
+  https://www.w3.org/Consortium/cepc/
+
+The HTML and DOM standards are maintained by the WHATWG:
+  https://github.com/whatwg/
+
+The {{ group.name }} is responsible for taking review drafts of the HTML and DOM standards and publishing them as W3C Recommendations. We invite wide and horizontal review on both standards before they are published as W3C Recommendations, but do not actively work on the specifications themselves.
+
+We raise and discuss issues relating to the {{ group.name }} on the WG repository:
+  https://github.com/w3c/htmlwg
+
+We also have a public email (which you've been subscribed to automatically), but we don't use it very much.
+
+If you have any questions or concerns, you can reach the {{ group.name }} chairs and team contacts directly on team-html@w3.org.
+
+Léonie Watson and Tess O'Connor ({{ group.name }} co-chairs)
