@@ -23,12 +23,10 @@ https://www.w3.org/2011/04/webrtc/wiki/Main_Page#Meetings
 The group usually meets face-to-face once or twice a year, but given the
 current circumstances, it is not clear when we might next meet F2F.
 
-The current focus of the Working Group is on finishing the 3 following
-specifications before the end of 2020:
-* WebRTC 1.0 https://w3c.github.io/webrtc-pc/webrtc.html
-* Media Capture and Streams
-https://w3c.github.io/mediacapture-main/getusermedia.html
-* WebRTC Stats https://w3c.github.io/webrtc-stats/
+The current focus of the Working Group is on finalizing its work on Media 
+Capture and Streams https://w3c.github.io/mediacapture-main/getusermedia.html
+and launching in earnest its work on the various components of WebRTC NV 
+https://w3c.github.io/webrtc-nv-use-cases/
 
 
 https://w3c.github.io/Guide/participant/group.html?gid={{ group.id }}
