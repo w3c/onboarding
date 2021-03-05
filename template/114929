@@ -1,0 +1,24 @@
+Welcome to the {{ group.name }} (WG), known simply as WebApps.
+
+Please read this email carefully. It'll only take a minute, and it'll help make sure you find the {{ group.name }} a cheerfully productive place to be.
+
+Everyone who is involved in the {{ group.name }} is expected to behave in accordance with the W3C Code of Ethics and Professional Conduct (CEPC):
+  https://www.w3.org/Consortium/cepc/
+
+You'll find information about each of the {{ group.name }} specifications, including links to their Github repositories, on the {{ group.name }} homepage:
+https://w3c.github.io/webappswg/
+
+Please note: the specification information is a work in progress. As each specification publishes its first Working Draft as part of the {{ group.name }}, it will be added automatically to the homepage. 
+
+If there is a specification you're interested in working on (and you're not already doing so), let us know and we'll help you get started.
+
+We raise and discuss issues relating to {{ group.name }} itself on the WG repository:
+https://github.com/w3c/webappswg/
+
+We also have a public email (which you've been subscribed to automatically), but we don't use it very much.
+
+We don't hold regular conference calls, but we do have an IRC channel for general discussions: #WebApps available on irc.w3.org:6667. We also have a WebApps channel in the W3C Slack.
+
+If you have any questions or concerns, you can reach the {{ group.name }} chairs and team contacts directly on team-webapps@w3.org.
+
+Léonie Watson and Marcos Cáceres ({{ group.name }} co-chairs)
