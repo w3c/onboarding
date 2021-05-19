@@ -1,0 +1,28 @@
+Welcome to the W3C {{ group.name }}!
+
+The {{ group.type }} does most of its work on Github:
+  https://www.w3.org/PM/Groups/repositories.html?gid={{ group.id }}
+
+The {{ group.type }} is focused on revising its publications:
+  https://www.w3.org/groups/wg/{{ group.shortname }}/publications
+
+If you plan to contribute changes to the specifications by providing
+pull requests, please link your Github and W3C accounts at:
+  https://www.w3.org/users/myprofile/connectedaccounts
+
+In addition, the {{ group.type }} uses its public mailing list for
+administrative announcements and coordination on topics which require
+broader attention:
+  https://lists.w3.org/Archives/Public/public-trace-context/
+
+The group only meets in Web conferences:
+  https://www.w3.org/groups/wg/{{ group.shortname }}/calendar
+
+https://www.w3.org/Guide/participant/group.html?gid={{ group.id }}
+is a complete map of useful resources for new participants in this group.
+
+Should you have any question on how to get up to speed with the
+{{ group.type }}, please get in touch with the W3C Staff Contact of the group:
+  Philippe Le Hegaret <plh@w3.org>
+
+Again, warm welcome to the group and to W3C!
