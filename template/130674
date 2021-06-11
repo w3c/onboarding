@@ -1,13 +1,22 @@
 Welcome to the W3C Web Machine Learning Working Group!
 
-The group was launched in April 2021 and our first teleconference is scheduled for June 10, 2021:
-  https://lists.w3.org/Archives/Public/public-webmachinelearning-wg/2021Jun/0004.html
+The group was launched in April 2021, we held our first introductory teleconference on June 10, 2021:
+  https://www.w3.org/2021/06/10-webmachinelearning-minutes.html
+
+Future meetings will be provided on the W3C Calendar for the group:
+  https://www.w3.org/groups/wg/webmachinelearning/calendar
+
+with their agendas available in the group's dedicated repository:
+  https://github.com/webmachinelearning/meetings/
+
+A Call for Consensus to bring WebNN as First Public Working Draft is running until June 17:
+  https://lists.w3.org/Archives/Public/public-webmachinelearning-wg/2021Jun/0007.html
 
 Per our charter, the work will happen in collaboration with the Web Machine Learning Community Group where the work has been incubating:
   https://www.w3.org/community/webmachinelearning/
 
-Our first order of business as a Working Group will be to figure a path towards a First Public Working Draft of the proposed WebNN API:
-  https://webmachinelearning.github.io/webnn/
+In general, most of the work of the group happens on its github repositories in:
+  https://github.com/webmachinelearning/
 
 All participants are required to follow the W3C Code of Ethics and Professional Conduct:
   https://www.w3.org/Consortium/cepc/
