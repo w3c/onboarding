@@ -16,6 +16,8 @@ A couple of items of information that may be helpful.
 
 * You can find PING on Github here - https://github.com/w3cping
 
+    If you have not already done so, please link your GitHub and W3C accounts: https://www.w3.org/users/myprofile/connectedaccounts
+
 * As background, you might want to read these two documents as they provide guidance to spec authors to help them reduce privacy risks and fingerprinting surface area in their specs:
 
     Self-review questionnaire: Security and Privacy - https://www.w3.org/TR/security-privacy-questionnaire/
