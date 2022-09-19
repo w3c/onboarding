@@ -2,7 +2,7 @@ Welcome to the W3C {{ group.name }}!
 
 The Working Group does most of its work on
 Github, with each of our specifications developed in its own repository
-(as listed in https://www.w3.org/PM/Groups/repositories.html?gid={{ group.id }}).
+(as listed in https://www.w3.org/groups/wg/webrtc/tools).
 
 If you plan to contribute changes to the specifications by providing
 pull requests, please link your Github and W3C accounts at:
@@ -20,10 +20,6 @@ exact date and times are determined based on Doodle polls we run a few
 weeks in advance of the said call.
 https://www.w3.org/2011/04/webrtc/wiki/Main_Page#Meetings
 https://www.w3.org/groups/wg/webrtc/calendar
-
-The group usually meets face-to-face once or twice a year. The group
-is planning to meet F2F during TPAC 2022 in Vancouver, on September
-12 and 13, 2022.
 
 The current focus of the Working Group is on finalizing its work on Media 
 Capture and Streams https://w3c.github.io/mediacapture-main/getusermedia.html
