@@ -34,6 +34,6 @@ FAQ
 ===
 
 1. __I don't know my group's id, how do I find it?__  
-It is the same numeric id that you use for links to Patent status in specs (links from https://www.w3.org/2004/01/pp-impl/). 
+It is the same numeric id that you use for links to Patent status in specs (links from https://www.w3.org/2004/01/pp-impl/).
 It is exposed through the W3C API (see (https://api.w3.org/doc) and if you don't have an API key you can find it
-in other tools e.g. https://www.w3.org/PM/Groups/browse.html (choose your group in the drop-down menu, the value will then show up in the gid parameter of the URI) or https://w3c.github.io/Guide/participant/group.html.
+in other tools e.g. https://www.w3.org/PM/Groups/browse.html (choose your group in the drop-down menu, the value will then show up in the gid parameter of the URI) or https://w3c.github.io/Guide/participant/group.html or just from the /admin page (team-only).
