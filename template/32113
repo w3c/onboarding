@@ -20,9 +20,9 @@ Here's the detail...
 
 HOME PAGES
 
-The main page for access to the information of the i18n Activity is http://www.w3.org/International/. This is where we post news, and links to the various types of information available on the site. In particular, you may want to check out the links just below the introductory paragraph, when you get a moment.
+The main page for access to the information of the i18n Activity is https://www.w3.org/International/. This is where we post news, and links to the various types of information available on the site. In particular, you may want to check out the links just below the introductory paragraph, when you get a moment.
 
-The Internationalization Working Group (i18n WG), has a home page at http://w3c.github.io/i18n-activity/i18n-wg/. This page gives practical information about the group, such as meetings, mailing lists, etc.
+The Internationalization Working Group (i18n WG), has a home page at https://w3c.github.io/i18n-activity/i18n-wg/. This page gives practical information about the group, such as meetings, mailing lists, etc.
 
 
 
@@ -46,7 +46,7 @@ It would be a good idea to try to connect to an IRC channel using the informatio
 
 Here is the information you need to connect. You can use an IRC client (recommended), or just use a Web browser. 
 IRC channel  : #i18n on irc.w3.org:6667 
-IRC via the Web  : http://www.w3.org/2001/01/cgi-irc (#i18n channel)
+IRC via the Web  : https://irc.w3.org/ (#i18n channel)
 
 This information, and more, is sent out in the agenda prior to the weekly meeting.
 
@@ -61,11 +61,11 @@ Here is a list of mailing lists that you have been subscribed to as a matter of 
 
 You are automatically subscribed to the public-i18n-core, member-i18n-core, and www-international lists.
 
-• public-i18n-core is used for internal admin such as telecon agendas relating to the i18n WG,  for weekly summaries of github notifications, and to catch action items. The archive is at http://lists.w3.org/Archives/Public/public-i18n-core/
+• public-i18n-core is used for internal admin such as telecon agendas relating to the i18n WG, for weekly summaries of github notifications, and to catch action items. The archive is at https://lists.w3.org/Archives/Public/public-i18n-core/
 
-• www-international We send minutes and github activity notifications to this list. Occasionally a request from outside the group will come in on this list, but we try to always move technical discussions to GitHub. The archive is at http://lists.w3.org/Archives/Public/www-international/
+• www-international We send minutes and github activity notifications to this list. Occasionally a request from outside the group will come in on this list, but we try to always move technical discussions to GitHub. The archive is at https://lists.w3.org/Archives/Public/www-international/
 
-• member-i18n-core Used for any member-confidential discussions (which are very rare). Occasionally the group uses this list to talk amongst itself, and proposed review comments are sent here for discussion before sending on to the working group concerned. The archive is at http://lists.w3.org/Archives/Member/member-i18n-core/.
+• member-i18n-core Used for any member-confidential discussions (which are very rare). Occasionally the group uses this list to talk amongst itself, and proposed review comments are sent here for discussion before sending on to the working group concerned. The archive is at https://lists.w3.org/Archives/Member/member-i18n-core/.
 
 We also have an array of more specialised lists, many of them serving the script/language-specific task forces. For a list of these mailing lists see https://www.w3.org/International/i18n-drafts/nav/about#groups. That points to archives for the public lists, from where you can find subscription links. Feel free to subscribe to any of these lists that interest you. (Again, they are mostly used for notifications of GitHub issue activity.)
 
