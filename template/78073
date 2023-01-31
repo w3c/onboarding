@@ -1,0 +1,32 @@
+Welcome to the W3C {{ group.name }}!
+
+The Community Group is the primary place for standardization activity for WebAssembly.
+
+We work primarily on GitHub. See for example
+the meetings, design, and spec repositories
+at https://github.com/WebAssembly.
+Each proposal also gets its own repository, and most of the activity happens in these
+repositories.
+
+If you plan to contribute changes to the specification or proposals by providing
+pull requests, please link your Github and W3C accounts at:
+  https://www.w3.org/users/myprofile/connectedaccounts
+
+
+The full group meets in video conferences biweekly. The usual schedule
+(as well as information for joining the VC) can be found at
+https://www.w3.org/groups/cg/webassembly/calendar
+but there is also a Google Calendar event that is guaranteed to be
+updated e.g. in the event of cancellation. Contact the chairs to be
+added to it.
+The agenda and notes are kept on GitHub at
+https://github.com/WebAssembly/meetings/tree/main/main
+
+There are also several subgroups that maintain their own meeting
+schedule and agenda. A list is maintained at
+https://github.com/WebAssembly/meetings/blob/main/process/subgroups.md
+
+If you have questions or need help, tou can contact the CG chairs at
+webassembly-cg-chair@chromium.org
+
+Again, warm welcome to the group and to W3C!
