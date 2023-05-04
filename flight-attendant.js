@@ -17,9 +17,25 @@ function welcome(userid, username, groupid, cb) {
         .then(group => {
           // craftMessage(username, group, address)
           if (process.env.NODE_ENV == 'debug') {
-            console.log("crafting message for %s %s joining group %s (%s)", username, address, group.name, group.id);
+            console.log("crafting message for %s %s joining group %s (%s)", username, address, group.name, group.id, group.shortname);
           }
           let mail = {};
+          switch (group.type) {
+              case 'working group':
+		type='wg';
+                break;
+              case 'interest group':
+		type='ig';
+                break;
+              case 'community group':
+		type='cg';
+                break;
+              case 'business group':
+		type='bg';
+                break;
+              default:
+                console.log('unknown group type');
+	  }
           getCc(group.id)
             .then(cc => {
               if (process.env.NODE_ENV == 'production') {
@@ -30,7 +46,7 @@ function welcome(userid, username, groupid, cb) {
                 mail.headers = { 'x-onboarding-test-cc' : cc } ;
               }
               mail.subject = "[W3C onboarding] Welcome to the " + group.name;
-              getGroupTemplate(group.id)
+              getGroupTemplate(group.shortname, type)
                 .then(template => {
                   var t = twig({
                     data: template
@@ -57,11 +73,11 @@ function welcome(userid, username, groupid, cb) {
                     .catch(err => { console.log(err); cb(err, 'error'); });
                 })
             })
-            .catch(err => console.log(err));
+            .catch(err => { console.log(err); cb(err, 'error'); });
         })
-        .catch(err => console.log(err));
+        .catch(err => { console.log(err); cb(err, 'error'); });
     })
-    .catch(err => console.log(err));
+    .catch(err => { console.log(err); cb(err, 'error'); });
 } 
 
 function getGroupInfo(group){
@@ -116,10 +132,10 @@ function getCc(group){
   });  
 }
 
-function getGroupTemplate(groupid){
+function getGroupTemplate(shortname, type){
   return new Promise(function (resolve, reject) {
     var r ;
-    fetch('https://raw.githubusercontent.com/w3c/onboarding/master/template/'+groupid)
+    fetch('https://raw.githubusercontent.com/w3c/onboarding/master/template/'+type+'/'+shortname)
     .then( res => {
       if (res.status === 200){
         r = res.text();
