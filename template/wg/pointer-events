@@ -1,11 +1,14 @@
 Welcome to the W3C {{ group.name }}!
 
-The Working Group does most of its work on Github:
-  https://github.com/w3c/pointerevents/
+Everyone who is involved in the {{ group.name }} is expected to behave in accordance with the W3C Code of Ethics and Professional Conduct (CEPC):
+  https://www.w3.org/Consortium/cepc/
 
 The Working Group is focused on maintaining and revising the Pointer
 Events specification:
-  https://www.w3.org/TR/pointerevents/upcoming/
+  https://www.w3.org/groups/wg/pointer-events/publications
+
+The Working Group does most of its work on Github:
+  https://www.w3.org/groups/wg/pointer-events/tools
 
 If you plan to contribute changes to the specifications by providing
 pull requests, please link your Github and W3C accounts at:
@@ -17,10 +20,7 @@ broader attention:
   https://lists.w3.org/Archives/Public/public-pointer-events/
 
 The group only meets in Web conferences:
-  https://www.w3.org/groups/wg/pointer-events/calendar
-
-https://w3c.github.io/Guide/participant/group.html?gid={{ group.id }}
-is a complete map of useful resources for new participants in this group.
+  https://auth.w3.org/?url=https://www.w3.org/groups/wg/pointer-events/calendar
 
 Should you have any question on how to get up to speed with the
 Working Group, please get in touch with the W3C Staff Contact of the group:
