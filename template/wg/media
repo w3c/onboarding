@@ -4,20 +4,20 @@ You can find more information about our group, including charter, participants l
 
 https://www.w3.org/groups/wg/media
 
-The Working Group co-chairs are Jer Noble (Apple) and Chris Needham (BBC). Francois Daoust is our W3C team contact.
+The Working Group co-chairs are Chris Needham (BBC) and Marcos Caceres (Apple). Francois Daoust is our W3C team contact.
 
-The Working Group does most of its work on Github, with each of our specifications developed in its own repository:
+The Working Group does most of its work on GitHub, with each of our specifications developed in its own repository:
 
 https://www.w3.org/PM/Groups/repositories.html?gid={{ group.id }}
 
 We have a monthly teleconference, on the second Tuesday of each month.
 
 - January, March, May, July, September, November: 14:00 US Pacific time
-- February, April, June, August, October, December: 07:00 US Pacific time
+- February, April, June, August, October, December: 09:00 US Pacific time
 
 You can find the connection details here:
 
-https://lists.w3.org/Archives/Member/w3c-archive/2020Jan/0323.html
+https://lists.w3.org/Archives/Member/w3c-archive/2023May/0295.html
 
 During meetings, the Working Group uses IRC to scribe and manage the speaker queue:
 
@@ -35,5 +35,5 @@ Kind regards,
 
 The Media Working Group co-chairs:
 
-Jer Noble (jer.noble@apple.com)
 Chris Needham (chris.needham@bbc.co.uk)
+Marcos Caceres (marcosc@apple.com)
