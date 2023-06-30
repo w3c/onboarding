@@ -21,12 +21,15 @@ updated e.g. in the event of cancellation. Contact the chairs to be
 added to it.
 The agenda and notes are kept on GitHub at
 https://github.com/WebAssembly/meetings/tree/main/main
-
 There are also several subgroups that maintain their own meeting
 schedule and agenda. A list is maintained at
 https://github.com/WebAssembly/meetings/blob/main/process/subgroups.md
 
-If you have questions or need help, tou can contact the CG chairs at
+You can find a list of community-driven WebAssembly resources
+(including our very active Discord server) at
+https://webassembly.org/community/resources/
+
+If you have questions or need help, you can contact the CG chairs at
 webassembly-cg-chair@chromium.org
 
 Again, warm welcome to the group and to W3C!
