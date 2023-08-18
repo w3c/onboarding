@@ -8,17 +8,16 @@ https://www.w3.org/groups/wg/aria
 The main group meets in video conferences weekly on Thursdays at 1PM Eastern, and the ARIA Practices task force meets at 2PM Eastern on Tuesdays every other week.
 You can find more details at https://www.w3.org/WAI/ARIA/communication
 
-The group usually meets face-to-face once or twice a year, but given the
-current circumstances, it is not clear when we might next meet F2F.
+The group usually meets face-to-face once or twice a year.
 
 # Onboarding Documentation
-  https://github.com/w3c/aria/wiki/Onboaring
+  https://github.com/w3c/aria/blob/main/documentation/onboarding.md
 is a complete map of useful resources for new participants in this group.
 
-# Github
+# GitHub
 The Working Group does most of its work on
-Github, with each of our specifications developed in its own repository
-(as listed in https://www.w3.org/PM/Groups/repositories.html?gid={{ group.id }}).
+GitHub, with each of our specifications developed in its own repository
+(as listed in https://www.w3.org/groups/wg/aria/tools/ ).
 
 If you plan to contribute changes to the specifications by providing
 pull requests, please link your Github and W3C accounts at:
@@ -39,7 +38,7 @@ All participants are required to follow the W3C Code of Ethics and Professional 
 # Contact
 Should you have any question on how to get up to speed with the
 Working Group, please get in touch with the Staff Contact of the group:
-Michael Cooper <cooper@w3.org>
+Daniel Montalvo <dmontalvo@w3.org>
 
 Again, warm welcome to the group and to W3C!
 
