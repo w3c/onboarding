@@ -1,0 +1,46 @@
+{% if group.type == 'working group' or group.type == 'interest group'  %}
+Welcome to the W3C {{ group.name }}!
+
+You can find essential information about the group on this page:
+
+   https://www.w3.org/groups/{{ group.id }}
+
+including the calendaar of teleconferences (with instructions for
+joining),
+
+   https://www.w3.org/groups/{{ group.id }}/calendar/
+
+the list of participants,
+
+   https://www.w3.org/groups/{{ group.id }}/participants/
+
+mailing lists and GitHub repositories,
+
+   https://www.w3.org/groups/{{ group.id }}/tools/
+
+the current and previous charters, how to join or leave the group,
+and more.
+
+The W3C's genweral page about MathML is
+
+   https://www.w3.org/Math/
+
+And this page contains a lot of practical information for members
+of W3C groups in general:
+
+   https://www.w3.org/Guide/
+
+If you have not already done so, please, link your GitHub account to
+your W3C account:
+
+   https://www.w3.org/users/myprofile/connectedaccounts
+
+All participants are required to follow the W3C Code of Ethics and
+Professional Conduct:
+
+   https://www.w3.org/Consortium/cepc/
+
+Should you have any questions on how to get up to speed with the
+Group, please get in touch with the Staff Contact of the group,
+Bert Bos <bert@w3.org>
+{% endif %}
