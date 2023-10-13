@@ -1,12 +1,12 @@
 {% if group.type == 'working group' or group.type == 'interest group'  %}
 
- {% if group.type == 'working group'}
+ {% if group.type == 'working group' %}
    {% set shorttype = 'wg' %}
  {% else %}
    {% set shorttype = 'ig' %}
  {% endif %}
 
-Welcome to the {{ group.name }}.
+Welcome to the {{ group.name }}!
 
 Everyone who is involved in the {{ group.name }} is expected to behave in accordance with the W3C Code of Ethics and Professional Conduct (CEPC):
   https://www.w3.org/Consortium/cepc/
@@ -26,5 +26,4 @@ For our meetings, check out our calendar at:
 If you have any questions or concerns, you can reach the {{ group.name }} chairs and team contacts 
 (in Cc: of this message) directly.
 
-  Welcome on board!
 {% endif %}
