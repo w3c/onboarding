@@ -1,23 +1,5 @@
 {% if group.type == 'working group' or group.type == 'interest group'  %}
-Welcome to the W3C {{ group.name }}!
 
-The following link will lead you to a "facility map" 
-to essential information about this group and other W3C resources.
-
-Please take a few minutes to browse and bookmark this information:
-  https://w3c.github.io/Guide/participant/group.html?gid={{ group.id }}
-
-If you have not already done so, link your GitHub account to your W3C account:
-  https://www.w3.org/users/myprofile/connectedaccounts
-
-All participants are required to follow the W3C Code of Ethics and Professional Conduct:
-  https://www.w3.org/Consortium/cepc/
-
-Should you have any questions on how to get up to speed with the
-Group, please get in touch with the Staff Contacts of the group.
-{% endif %}
-
-{% if group.type='unknown group' %}
  {% if group.type == 'working group'}
    {% set shorttype = 'wg' %}
  {% else %}
