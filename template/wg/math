@@ -1,27 +1,29 @@
-{% if group.type == 'working group' or group.type == 'interest group'  %}
+{% if group.type == 'working group' or group.type == 'interest group' %}
+{% if group.type == 'working group' %}{% set type = 'wg' %}{% endif %}
+{% if group.type == 'interest group' %}{% set type = 'ig' %}{% endif %}
 Welcome to the W3C {{ group.name }}!
 
 You can find essential information about the group on this page:
 
-   https://www.w3.org/groups/wg/math/
+   https://www.w3.org/groups/{{ type }}/{{ group.shortname }}/
 
 including the calendar of teleconferences (with instructions for
 joining),
 
-   https://www.w3.org/groups/wg/math/calendar/
+   https://www.w3.org/groups/{{ type }}/{{ group.shortname }}/calendar/
 
 the list of participants,
 
-   https://www.w3.org/groups/wg/math/participants/
+   https://www.w3.org/groups/{{ type }}/{{ group.shortname }}/participants/
 
 mailing lists and GitHub repositories,
 
-   https://www.w3.org/groups/wg/math/tools/
+   https://www.w3.org/groups/{{ type }}/{{ group.shortname }}/tools/
 
 the current and previous charters, how to join or leave the group,
 and more.
 
-The W3C's genweral page about MathML is
+The W3C's general page about MathML is
 
    https://www.w3.org/Math/
 
