@@ -16,3 +16,33 @@ All participants are required to follow the W3C Code of Ethics and Professional 
 Should you have any questions on how to get up to speed with the
 Group, please get in touch with the Staff Contacts of the group.
 {% endif %}
+
+{% if group.type='unknown group' %}
+ {% if group.type == 'working group'}
+   {% set shorttype = 'wg' %}
+ {% else %}
+   {% set shorttype = 'ig' %}
+ {% endif %}
+
+Welcome to the {{ group.name }}.
+
+Everyone who is involved in the {{ group.name }} is expected to behave in accordance with the W3C Code of Ethics and Professional Conduct (CEPC):
+  https://www.w3.org/Consortium/cepc/
+
+You'll find information about the {{ group.name }} at:
+  https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}
+
+If you have not already done so, link your GitHub account to your W3C account:
+  https://www.w3.org/users/myprofile/connectedaccounts
+
+We raise and discuss issues relating to {{ group.name }} itself on the WG repositories:
+  https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/tools
+
+For our meetings, check out our calendar at:
+  https://auth.w3.org/?url=https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/calendar
+
+If you have any questions or concerns, you can reach the {{ group.name }} chairs and team contacts 
+(in Cc: of this message) directly.
+
+  Welcome on board!
+{% endif %}
