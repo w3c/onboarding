@@ -3,20 +3,20 @@ Welcome to the W3C {{ group.name }}!
 
 You can find essential information about the group on this page:
 
-   https://www.w3.org/groups/{{ group.id }}
+   https://www.w3.org/groups/wg/math/
 
-including the calendaar of teleconferences (with instructions for
+including the calendar of teleconferences (with instructions for
 joining),
 
-   https://www.w3.org/groups/{{ group.id }}/calendar/
+   https://www.w3.org/groups/wg/math/calendar/
 
 the list of participants,
 
-   https://www.w3.org/groups/{{ group.id }}/participants/
+   https://www.w3.org/groups/wg/math/participants/
 
 mailing lists and GitHub repositories,
 
-   https://www.w3.org/groups/{{ group.id }}/tools/
+   https://www.w3.org/groups/wg/math/tools/
 
 the current and previous charters, how to join or leave the group,
 and more.
