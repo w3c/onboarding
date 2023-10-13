@@ -8,20 +8,21 @@
 
 Welcome to the {{ group.name }}!
 
-Everyone who is involved in the {{ group.name }} is expected to behave in accordance with the W3C Code of Ethics and Professional Conduct (CEPC):
-  https://www.w3.org/Consortium/cepc/
-
-You'll find information about the {{ group.name }} at:
+This is a short introduction email to provide useful links about the group.
+You will find a lot of information about the {{ group.name }} linked from 
   https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}
 
-If you have not already done so, link your GitHub account to your W3C account:
-  https://www.w3.org/users/myprofile/connectedaccounts
-
-We raise and discuss issues relating to {{ group.name }} itself on the WG repositories:
+In particular, the following page tells you where the {{ group.name }} works, including repositories
   https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/tools
 
-For our meetings, check out our calendar at:
+For meetings, check the group calendar at
   https://auth.w3.org/?url=https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/calendar
+
+If you have not already done so, please link your GitHub account to your W3C account using
+  https://www.w3.org/users/myprofile/connectedaccounts
+
+All participants in the {{ group.name }} are expected to behave in accordance with the W3C Code of Ethics and Professional Conduct (CEPC)
+  https://www.w3.org/Consortium/cepc/
 
 If you have any questions or concerns, you can reach the {{ group.name }} chairs and team contacts 
 (in Cc of this message) directly.
