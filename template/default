@@ -24,6 +24,6 @@ For our meetings, check out our calendar at:
   https://auth.w3.org/?url=https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/calendar
 
 If you have any questions or concerns, you can reach the {{ group.name }} chairs and team contacts 
-(in Cc: of this message) directly.
+(in Cc of this message) directly.
 
 {% endif %}
