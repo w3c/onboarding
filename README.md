@@ -19,7 +19,7 @@ The syntax is using a double curly bracket and refer to W3C group data, e.g.:
 
 Of course you may use completely basic URLs without any Twig code at all!
 
-Available group information comes from the W3C API, so you can use
+Available group information comes from the [W3C API](https://api.w3.org/doc) see: https://api.w3.org/groups, so you can use
 *id, name, description, shortname, type, start-date, end-date.*
 It should also be possible to include links like  
 `{{ group._links.homepage.href }}`  
@@ -28,8 +28,3 @@ It should also be possible to include links like
 or  
 `{{ group._links.pp-status.href }}`   
 (equivalent to `https://www.w3.org/2004/01/pp-impl/{{ group.id }}/status`)
-
-FAQ
-===
-Information about groups is exposed through the W3C API (see (https://api.w3.org/doc) and if you don't have an API key you can find it
-in other tools e.g. https://www.w3.org/PM/Groups/browse.html (choose your group in the drop-down menu, or from the /admin page (team-only).
