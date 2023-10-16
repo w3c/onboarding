@@ -10,7 +10,7 @@ Welcome to the {{ group.name }}!
 
 This is a short introduction email to provide useful links about the group.
 You will find a lot of information about the {{ group.name }} linked from 
-  https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}
+  https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/
 
 In particular, the following page tells you where the {{ group.name }} works, including repositories
   https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/tools
