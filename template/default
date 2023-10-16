@@ -19,7 +19,7 @@ For meetings, check the group calendar at
   https://auth.w3.org/?url=https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/calendar
 
 If you have not already done so, please link your GitHub account to your W3C account using
-  https://www.w3.org/users/myprofile/connectedaccounts
+  https://www.w3.org/users/myprofile/connectedaccounts/
 
 All participants in the {{ group.name }} are expected to behave in accordance with the W3C Code of Ethics and Professional Conduct (CEPC)
   https://www.w3.org/Consortium/cepc/
