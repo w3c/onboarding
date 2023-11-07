@@ -1,18 +1,29 @@
 {% if group.type == 'working group' or group.type == 'interest group'  %}
-Welcome to the W3C {{ group.name }}!
 
-The following link will lead you to a "facility map" 
-to essential information about this group and other W3C resources.
+ {% if group.type == 'working group' %}
+   {% set shorttype = 'wg' %}
+ {% else %}
+   {% set shorttype = 'ig' %}
+ {% endif %}
 
-Please take a few minutes to browse and bookmark this information:
-  https://w3c.github.io/Guide/participant/group.html?gid={{ group.id }}
+Welcome to the {{ group.name }}!
 
-If you have not already done so, link your GitHub account to your W3C account:
-  https://www.w3.org/users/myprofile/connectedaccounts
+This is a short introduction email to provide useful links about the group.
+You will find a lot of information about the {{ group.name }} linked from 
+  https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/
 
-All participants are required to follow the W3C Code of Ethics and Professional Conduct:
+In particular, the following page tells you where the {{ group.name }} works, including repositories
+  https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/tools/
+
+For meetings, check the group calendar at
+  https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/calendar/
+
+If you have not already done so, please link your GitHub account to your W3C account using
+  https://www.w3.org/users/myprofile/connectedaccounts/
+
+All participants in the {{ group.name }} are expected to behave in accordance with the W3C Code of Ethics and Professional Conduct (CEPC)
   https://www.w3.org/Consortium/cepc/
 
-Should you have any questions on how to get up to speed with the
-Group, please get in touch with the Staff Contacts of the group.
+If you have any questions or concerns, you can reach the {{ group.name }} chairs and team contacts (in Cc of this message) directly.
+
 {% endif %}
