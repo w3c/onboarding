@@ -1,0 +1,23 @@
+Welcome to the W3C {{ group.name }}, known as SustyWeb!
+
+Links to the Sustainable Web Guidelines and other deliverables of the group can be found in our GitHub repo
+  https://github.com/w3c/sustyweb/
+
+To get involved in any of the committees of this group, please see:
+  https://www.w3.org/community/sustyweb/wiki/Main_Page#Committees
+
+To join our Slack group, see:
+  https://www.w3.org/slack-w3ccommunity-invite
+
+The group has a monthly teleconference call, please contact co-Chair Tim Frick <tim@mightybytes.com> for details.
+
+You will find a lot more information about the {{ group.name }} linked from:
+  https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/
+
+If you have not already done so, please link your GitHub account to your W3C account using
+  https://www.w3.org/users/myprofile/connectedaccounts/
+
+All participants in the {{ group.name }} are expected to behave in accordance with the W3C Code of Ethics and Professional Conduct (CEPC)
+  https://www.w3.org/Consortium/cepc/
+
+If you have any questions or concerns, you can reach the {{ group.name }} chairs directly.
