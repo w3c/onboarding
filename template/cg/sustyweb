@@ -9,7 +9,8 @@ To get involved in any of the committees of this group, please see:
 To join our Slack group, see:
   https://www.w3.org/slack-w3ccommunity-invite
 
-The group has a monthly teleconference call, please contact co-Chair Tim Frick <tim@mightybytes.com> for details.
+For meetings, check the group calendar at
+  https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/calendar/
 
 You will find a lot more information about the {{ group.name }} linked from:
   https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/
