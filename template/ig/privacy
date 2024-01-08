@@ -6,7 +6,7 @@ Our co-chairs are Pete Snyder (Brave), Christine Runnegar (invited expert), and 
 
 A couple of items of information that may be helpful.
 
-* You have been subscribed to the public W3C privacy activity email list, used by PING, public-privacy@w3.org. We will invite you to the PING Slack workspace. Please look for a separate email.
+* You have been subscribed to the public W3C privacy activity email list, used by PING, public-privacy@w3.org. We will invite you to the ping Slack channel on the w3ccommunity workspace.
 
 * We meet the 1st and 3rd Thursday of each month at noon US Eastern, 9AM Pacific (1600 or 1700 UTC depending on the season).
 
@@ -19,6 +19,8 @@ A couple of items of information that may be helpful.
     If you have not already done so, please link your GitHub and W3C accounts: https://www.w3.org/users/myprofile/connectedaccounts
 
 * As background, you might want to read these two documents as they provide guidance to spec authors to help them reduce privacy risks and fingerprinting surface area in their specs:
+
+    Privacy Principles - https://www.w3.org/TR/privacy-principles/
 
     Self-review questionnaire: Security and Privacy - https://www.w3.org/TR/security-privacy-questionnaire/
 
