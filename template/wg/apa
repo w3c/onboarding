@@ -1,0 +1,80 @@
+Hello - welcome to the W3C Accessible Platform Architectures (APA) Working Group!
+
+On behalf of the Co-Chairs, Janina, and Matthew, and on behalf of our Staff Contact, Ruoxi (Roy): Welcome to the Accessible Platform Architectures (APA) Working Group! This email is being sent to you automatically, but we'd love to have a chat with you, to help you get started - details on how to get in touch can be found below.
+
+The APA working group's main responsibility is to review all W3C specifications from an accessibility perspective, and to support other groups in ensuring their specifications promote accessibility. We also do a range of exploratory and standardisation work in several different areas of accessibility. You can find some details - as well as a range of other helpful links - at the end of this email. Please check out at least 'the most important' section below.
+
+We welcome your participation, and would like to help you get oriented, and find things to work on that interest you. We'd be very happy to have a 30-minute call with you, to learn about your background, and to we can answer any questions you might have. Before we chat, please read the info below about the exciting work the group is doing. If you'd like to have such a call, please write to group-apa-chairs@w3.org to reach all of us (mail send to our group address is privately archived).
+
+Once again: welcome, and we look forward to working with you.
+
+Best regards,
+
+
+Janina, Matthew, and Ruoxi (Roy)
+
+
+// The most important links, and steps to take
+
+You will find a lot of information about the Accessible Platform Architectures Working Group linked from <https://www.w3.org/groups/wg/apa/>
+
+For meetings, check the group calendar at <https://www.w3.org/groups/wg/apa/calendar/>
+
+If you have not already done so, please link your GitHub account to your W3C account using <https://www.w3.org/users/myprofile/connectedaccounts/>
+
+All participants in the Accessible Platform Architectures Working Group are expected to behave in accordance with the W3C Code of Ethics and Professional Conduct (CEPC): <https://www.w3.org/Consortium/cepc/>
+
+
+// Info on the group, and each Task Force (TF)
+
+The mission of the Accessible Platform Architectures Working Group (APA WG) is to ensure W3C specifications provide support for accessibility to people with disabilities. The group advances this mission through review of W3C specifications, development of technical support materials, collaboration with other Working Groups, and coordination of harmonized accessibility strategies within W3C.
+
+APA WG home page (this is more for non-members than the W3C Groups page linked first above): <https://www.w3.org/WAI/APA/>
+
+A 'blog post about what participation is like: <https://www.tpgi.com/two-years-of-w3c-participation/>
+
+List of active specification review requests: <https://github.com/w3c/a11y-request/issues>
+
+The following sections each cover a single task force.
+
+
+// WAI-Adapt Task Force ('Adapt')
+
+WAI-Adapt specifications enable users to personalize how content is presented in order to meet their needs and preferences. We achieve this, across a range of accessibility challenges (from adding AAC-style symbols into web content, to helping people navigate sites) by adding a small amount of machine-readable semantic metadata at the element level. The work of this task force is inspired by that of the COGA TF.
+
+Example deliverable: our presentation from the W3C annual conference: <https://raw.githack.com/w3c/adapt/main/TPAC/2023/>
+
+
+// Cognitive Accessibility Task Force ('COGA')
+
+The Cognitive and Learning Disabilities Accessibility Task Force will develop draft proposed guidance and techniques to make web content, content authoring, and user agent implementation accessible and more useable by people with cognitive and learning disabilities.
+
+Example deliverable: 'Making Content Usable for People with Cognitive and Learning Disabilities': <https://www.w3.org/TR/coga-usable/>
+
+
+// Framework for Accessibility in the Specification of Technologies Task Force ('FAST')
+
+This TF develops the FAST, collects user and functional needs, develops guidance to meet those needs in technologies, and works with other groups to develop this guidance for content developers.
+
+FAST TF home page: <https://www.w3.org/WAI/APA/task-forces/fast/>
+
+
+// Maturity Model Task Force ('Maturity')
+
+The Maturity Model Task Force is to craft an Accessibility Maturity Model (AMM) narrative and assessment tool in support of W3C standards and other related guidance, such as Web Content Accessibility Guidelines (WCAG) and Accessibility Rich Internet Applications (ARIA), in consultation with the APA Working Group. Specifically, the MMTF Accessibility Maturity Model will assist organizations in building capacity to develop, and maintain, accessible products or services.
+
+Example deliverable: Accessibility Maturity Model: <https://www.w3.org/TR/maturity-model/>
+
+
+// Pronunciation Task Force ('Pronunciation')
+
+The Spoken Presentation Task Force will develop normative specifications and best practices guidance collaborating with other W3C groups as appropriate, to provide for proper pronunciation in HTML content when using text to speech (TTS) synthesis.
+
+Example deliverable: Pronunciation Gap Analysis and Use Cases: <https://www.w3.org/TR/pronunciation-gap-analysis-and-use-cases/>
+
+
+// Research Questions Task Force ('RQTF')
+
+The Research Questions Task Force (RQTF) works to identify accessibility knowledge gaps and barriers in emerging and future web technologies, and to identify research findings, researchers, and research opportunities to inform and fill those gaps where possible.
+
+Example of one deliverable: The XR Accessibility User Requirements ('XAUR') - one of several '*AUR' documents covering a range of technology applications: <https://www.w3.org/TR/xaur/>
