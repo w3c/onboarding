@@ -1,10 +1,13 @@
 Welcome to the W3C {{ group.name }}!
 
 Everyone who is involved in the {{ group.name }} is expected to behave in accordance with the W3C Code of Ethics and Professional Conduct (CEPC):
-  https://www.w3.org/Consortium/cepc/
+  https://www.w3.org/policies/code-of-conduct/
 
-The {{ group.type }} does most of its work on Github:
+The {{ group.type }} does most of its work on Github and Slack:
   https://www.w3.org/groups/wg/{{ group.shortname }}/tools
+
+If you need an invite to the w3ccommunity Slack, use
+  https://www.w3.org/slack-w3ccommunity-invite
 
 The {{ group.type }} is focused on revising its publications:
   https://www.w3.org/groups/wg/{{ group.shortname }}/publications
