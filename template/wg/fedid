@@ -1,0 +1,31 @@
+{% if group.type == 'working group' or group.type == 'interest group'  %}
+
+ {% if group.type == 'working group' %}
+   {% set shorttype = 'wg' %}
+ {% else %}
+   {% set shorttype = 'ig' %}
+ {% endif %}
+
+Welcome to the {{ group.name }}!
+
+This is a short introduction email to provide useful links about the group.
+You will find a lot of information about the {{ group.name }} linked from 
+  https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/
+
+In particular, the following page tells you where the {{ group.name }} works, including repositories
+  https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/tools/
+
+For meetings, check the group calendar at
+  https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/calendar/
+
+If you have not already done so, please link your GitHub account to your W3C account using
+  https://www.w3.org/users/myprofile/connectedaccounts/
+
+All participants in the {{ group.name }} are expected to behave in accordance with the W3C Code of Conduct
+  https://www.w3.org/policies/code-of-conduct/
+
+If you have any questions or concerns, you can reach the {{ group.name }} chairs and team contacts (in Cc of this message) directly.
+
+Heather, Wendy, Simone
+
+{% endif %}
