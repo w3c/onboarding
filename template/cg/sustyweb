@@ -1,3 +1,5 @@
+{% set shorttype = 'cg' %}
+
 Welcome to the W3C {{ group.name }}, known as SustyWeb!
 
 Links to the Sustainable Web Guidelines and other deliverables of the group can be found in our GitHub repo
