@@ -2,8 +2,8 @@ Welcome to the {{ group.name }}.
 
 Please read this email carefully. It'll only take a minute, and it'll help make sure you find the {{ group.name }} a cheerfully productive place to be.
 
-Everyone who is involved in the {{ group.name }} is expected to behave in accordance with the W3C Code of Ethics and Professional Conduct (CEPC):
-  https://www.w3.org/Consortium/cepc/
+Everyone who is involved in the {{ group.name }} is expected to behave in accordance with the W3C Code of Conduct:
+  https://www.w3.org/policies/code-of-conduct/
 
 The HTML and DOM standards are maintained by the WHATWG:
   https://github.com/whatwg/

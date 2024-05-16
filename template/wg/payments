@@ -1,7 +1,7 @@
 Welcome to the {{ group.name }}.
 
-Everyone who is involved in the {{ group.name }} is expected to behave in accordance with the W3C Code of Ethics and Professional Conduct (CEPC):
-  https://www.w3.org/Consortium/cepc/
+Everyone who is involved in the {{ group.name }} is expected to behave in accordance with the W3C Code of Conduct:
+  https://www.w3.org/policies/code-of-conduct/
 
 You'll find information about the {{ group.name }} at:
   https://www.w3.org/groups/wg/payments
