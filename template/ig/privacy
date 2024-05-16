@@ -15,7 +15,7 @@ A couple of items of information that may be helpful.
   https://www.w3.org/slack-w3ccommunity-invite
 
 * The group meets twice a month:
-  https://auth.w3.org/?url=https://www.w3.org/groups/wg/{{ group.shortname }}/calendar
+  https://auth.w3.org/?url=https://www.w3.org/groups/ig/{{ group.shortname }}/calendar
 
 * PING is on Github  https://github.com/w3cping
 
