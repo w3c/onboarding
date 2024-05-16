@@ -6,7 +6,7 @@ Please could you send a short introduction to the member-tt@w3.org mailing list,
 
 The Working Group does most of its work on
 Github, with each of our specifications developed in its own repository
-(as listed in https://www.w3.org/PM/Groups/repositories.html?gid={{ group.id }}).
+(as listed in https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/tools/).
 
 If you plan to contribute changes to the specifications by providing
 pull requests, please link your Github and W3C accounts at:
@@ -43,8 +43,6 @@ The group sometimes uses a wiki for managing documents such as
 implementation reports, registries, and ideas. This can be found at:
   https://www.w3.org/wiki/TimedText
 
-https://w3c.github.io/Guide/participant/group.html?gid={{ group.id }}
-is a complete map of useful resources for new participants in this group.
 {{ group._links.homepage.href }} is also a useful resource.
 
 Should you have any question on how to get back up to speed with the
