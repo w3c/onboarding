@@ -1,3 +1,4 @@
+ {% set shorttype = 'wg' %}
 Welcome to the W3C {{ group.name }}!
 
 As with all W3C work, the https://www.w3.org/Consortium/cepc/ applies to everything we do.
