@@ -20,7 +20,7 @@ The group meets in video conferences roughly on a monthly basis; the
 exact date and times are determined based on Doodle polls we run a few
 weeks in advance of the said call.
 https://www.w3.org/2011/04/webrtc/wiki/Main_Page#Meetings
-https://www.w3.org/groups/wg/webrtc/calendar
+https://auth.w3.org/?url=https://www.w3.org/groups/wg/webrtc/calendar
 
 The current focus of the Working Group is on finalizing its work on Media 
 Capture and Streams https://w3c.github.io/mediacapture-main/getusermedia.html
@@ -30,8 +30,9 @@ https://w3c.github.io/webrtc-nv-use-cases/ , including the WebRTC Encoded Transf
 The Working Group operates according to the work mode documented at:
   https://github.com/w3c/webrtc-charter/blob/gh-pages/workmode.md
 
-https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/
-is a complete map of useful resources for new participants in this group.
+Everyone who is involved in the {{ group.name }} is expected to behave in accordance with the W3C Code of Conduct:
+  https://www.w3.org/policies/code-of-conduct/
+
 
 Should you have any question on how to get back up to speed with the
 Working Group, please get in touch with the Staff Contacts of the group:

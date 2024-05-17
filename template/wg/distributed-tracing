@@ -1,6 +1,6 @@
 Welcome to the W3C {{ group.name }}!
 
-Everyone who is involved in the {{ group.name }} is expected to behave in accordance with the W3C Code of Ethics and Professional Conduct (CEPC):
+Everyone who is involved in the {{ group.name }} is expected to behave in accordance with the W3C Code of Conduct:
   https://www.w3.org/policies/code-of-conduct/
 
 The {{ group.type }} does most of its work on Github and Slack:

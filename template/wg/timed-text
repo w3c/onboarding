@@ -1,7 +1,8 @@
  {% set shorttype = 'wg' %}
 Welcome to the W3C {{ group.name }}!
 
-As with all W3C work, the https://www.w3.org/Consortium/cepc/ applies to everything we do.
+As with all W3C work, the W3C Code of Conduct applies to everything we do
+ https://www.w3.org/policies/code-of-conduct/
 
 Please could you send a short introduction to the member-tt@w3.org mailing list, both to let other members know about you, and to verify that you can send messages to that (member only) list?
 
