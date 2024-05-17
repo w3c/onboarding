@@ -1,3 +1,4 @@
+ {% set shorttype = 'wg' %}
 Welcome to the W3C {{ group.name }}!
 
 The Working Group does most of its work on
