@@ -1,3 +1,4 @@
+ {% set shorttype = 'wg' %}
 Welcome to the W3C Media Working Group!
 
 You can find more information about our group, including charter, participants list, and publications, here:
