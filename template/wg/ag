@@ -1,3 +1,4 @@
+{% set shorttype = 'wg' %}
 Hello - welcome to the Accessibility Guidelines Working Group!
 
 This is a short-introduction email to provide a little information and
