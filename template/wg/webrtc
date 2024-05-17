@@ -1,3 +1,4 @@
+ {% set shorttype = 'wg' %}
 Welcome to the W3C {{ group.name }}!
 
 The Working Group does most of its work on
@@ -29,7 +30,7 @@ https://w3c.github.io/webrtc-nv-use-cases/ , including the WebRTC Encoded Transf
 The Working Group operates according to the work mode documented at:
   https://github.com/w3c/webrtc-charter/blob/gh-pages/workmode.md
 
-https://w3c.github.io/Guide/participant/group.html?gid={{ group.id }}
+https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/
 is a complete map of useful resources for new participants in this group.
 
 Should you have any question on how to get back up to speed with the

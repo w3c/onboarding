@@ -1,3 +1,4 @@
+{% set shorttype = 'wg' %}
 Hello - welcome to the Accessibility Guidelines Working Group!
 
 This is a short-introduction email to provide a little information and
@@ -50,7 +51,7 @@ If you need accessibility accommodations to participate in the work, please
 let us know, with enough lead time to implement them.
 
 Please take a few minutes to browse and bookmark this information:
-  https://w3c.github.io/Guide/participant/group.html?gid=35422
+  https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/
 
 All participants are required to follow the W3C Code of Ethics and 
 Professional Conduct:
