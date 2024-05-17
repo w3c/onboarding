@@ -1,3 +1,4 @@
+{% set shorttype = 'wg' %}
 Hello - welcome to the Accessibility Guidelines Working Group!
 
 This is a short-introduction email to provide a little information and
@@ -54,7 +55,10 @@ let us know, with enough lead time to implement them.
 
 All participants are required to follow the W3C Code of Conduct:
   https://www.w3.org/policies/code-of-conduct/
-  
+
+Please take a few minutes to browse and bookmark this information:
+  https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/
+
 If you are joining as an Invited Expert, note that your status depends on 
 ongoing active participation in the group. If you become inactive for 
 6 months or more, your Invited Expert status may not be extended. 

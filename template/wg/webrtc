@@ -1,3 +1,4 @@
+ {% set shorttype = 'wg' %}
 Welcome to the W3C {{ group.name }}!
 
 The Working Group does most of its work on
@@ -31,6 +32,7 @@ The Working Group operates according to the work mode documented at:
 
 Everyone who is involved in the {{ group.name }} is expected to behave in accordance with the W3C Code of Conduct:
   https://www.w3.org/policies/code-of-conduct/
+
 
 Should you have any question on how to get back up to speed with the
 Working Group, please get in touch with the Staff Contacts of the group:

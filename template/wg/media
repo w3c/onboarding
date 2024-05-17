@@ -1,3 +1,4 @@
+ {% set shorttype = 'wg' %}
 Welcome to the W3C Media Working Group!
 
 You can find more information about our group, including charter, participants list, and publications, here:
@@ -8,7 +9,7 @@ The Working Group co-chairs are Chris Needham (BBC) and Marcos Caceres (Apple). 
 
 The Working Group does most of its work on GitHub, with each of our specifications developed in its own repository:
 
-https://www.w3.org/PM/Groups/repositories.html?gid={{ group.id }}
+https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/tools/
 
 We have a monthly teleconference, on the second Tuesday of each month.
 
