@@ -2,19 +2,22 @@ Welcome to the W3C Privacy Interest Group, known as PING.
 
 We are delighted to have you join us. Our mission is to improve privacy on the Web.
 
-Our co-chairs are Pete Snyder (Brave), Christine Runnegar (invited expert), and Nick Doty (CDT). Philippe Le Hegaret is our W3C contact.
+Everyone who is involved in the {{ group.name }} is expected to behave in accordance with the W3C Code of Conduct:
+  https://www.w3.org/policies/code-of-conduct/
+
+Our co-chairs are Pete Snyder (invited Expert), Christine Runnegar (invited expert), and Nick Doty (CDT). Philippe Le Hegaret is our W3C contact.
 
 A couple of items of information that may be helpful.
 
-* You have been subscribed to the public W3C privacy activity email list, used by PING, public-privacy@w3.org. We will invite you to the ping Slack channel on the w3ccommunity workspace.
+* You have been subscribed to the public W3C privacy activity email list, used by PING, public-privacy@w3.org.
 
-* We meet the 1st and 3rd Thursday of each month at noon US Eastern, 9AM Pacific (1600 or 1700 UTC depending on the season).
+* We also use the ping Slack channel on the w3ccommunity workspace. If you need an invite, use
+  https://www.w3.org/slack-w3ccommunity-invite
 
-    Meeting coordinates can be found at: https://www.w3.org/Privacy/IG/
-    
-    We use a shared Cryptpad for minutes, also linked above.
+* The group meets twice a month:
+  https://auth.w3.org/?url=https://www.w3.org/groups/ig/{{ group.shortname }}/calendar
 
-* You can find PING on Github here - https://github.com/w3cping
+* PING is on Github  https://github.com/w3cping
 
     If you have not already done so, please link your GitHub and W3C accounts: https://www.w3.org/users/myprofile/connectedaccounts
 
