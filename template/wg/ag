@@ -1,18 +1,22 @@
 {% set shorttype = 'wg' %}
 Hello - welcome to the Accessibility Guidelines Working Group!
 
-This is a short-introduction email to provide a little information and
-quite a few links.  
+This email provides a little information and some links to help you get
+started.  
 
-You should have received the same automated email I did, which includes a
-link to the charter. That’s the work we have in scope at the moment.
+You should have received a separate automated email which includes a
+link to the charter. That outlines the work we have in scope at the
+moment.
 
-The main page of the wiki also lists the main links to our work areas, a
-very useful bookmark:
+The Working Group maintains a wiki. The main page lists the links to
+our work areas. This is a useful page to bookmark and check:
   https://www.w3.org/WAI/GL/wiki/Main_Page
 
-You should also start receiving emails from the WCAG list, which varies,
-but can have quite a lot of traffic – I advise setting up a folder that it
+There is also a page that provides some onboarding training materials:
+  https://www.w3.org/WAI/GL/wiki/Onboarding_for_working_in_Github
+
+You should start receiving emails from the WCAG list. This can have
+quite a lot of traffic – we would advise setting up a folder that it
 gets filtered into (email address is: w3c-wai-gl@w3.org).
 
 The key emails to keep an eye out for are the weekly agenda emails, the
@@ -24,15 +28,12 @@ You can view all the archive emails at:
 Are you joining primarily for a task force? If so, please let us know which
 task force(s) you wish to join.
 
-If not, the meeting info page for the main working group (a useful
-bookmark) is: https://www.w3.org/2017/08/telecon-info_ag
-
-You may subscribe to the Group calendat at:
- https://auth.w3.org/?url=https://www.w3.org/groups/wg/ag/calendar/
+You may subscribe to the Group calendar at:
+ https://www.w3.org/groups/wg/ag/calendar/
 
 Note that we use IRC quite heavily during meetings (e.g. to share links and
 make notes which turn into minutes), that can be accessed at:
-  http://irc.w3.org/
+  http://webirc.w3.org/
 
 With your ‘nickname’, and channel: #ag (including the hash symbol). A brief
 introduction to IRC is at:
@@ -40,9 +41,6 @@ introduction to IRC is at:
 
 Other links can be found from the overview page:
   https://www.w3.org/WAI/GL/
-
-(It is a relatively new website, but you’ll end up on the old website pages
-for some of the links)
 
 If and when you do join a call, it is customary for new members of the
 group to give a quick introduction. E.g. “I’m [name], I work for [company]
@@ -52,6 +50,7 @@ introduce yourself.
 
 If you need accessibility accommodations to participate in the work, please
 let us know, with enough lead time to implement them.
+
 
 All participants are required to follow the W3C Code of Conduct:
   https://www.w3.org/policies/code-of-conduct/
@@ -69,4 +68,8 @@ Group, please get in touch with the chairs and staff contacts by email to
 
 Kind regards,
 
+Chuck, Racahel, Alastair
 Accessibility Guidelines Working Group chairs
+
+and Kevin
+Team Contact
