@@ -1,12 +1,12 @@
 Welcome to the W3C {{ group.name }}!
 
 # General information  
-Working Group Summary, Participants, Charters, Tools, Publications, Taskforce and Calendar 
+Working Group Summary, Participants, Charters, Tools, Publications, Taskforce and Calendar are at
 https://www.w3.org/groups/wg/aria
 
 # Meeting Information 
 The main group meets in video conferences weekly on Thursdays at 1PM Eastern, and the ARIA Practices task force meets at 2PM Eastern on Tuesdays every other week.
-You can find more details at https://www.w3.org/WAI/ARIA/communication
+You can find more details at https://www.w3.org/WAI/about/groups/ariawg/communication
 
 The group usually meets face-to-face once or twice a year.
 
@@ -15,13 +15,16 @@ The group usually meets face-to-face once or twice a year.
 is a complete map of useful resources for new participants in this group.
 
 # GitHub
-The Working Group does most of its work on
-GitHub, with each of our specifications developed in its own repository
-(as listed in https://www.w3.org/groups/wg/aria/tools/ ).
+The Working Group does most of its work on the WAI-ARIA GitHub monorepo
+  https://www.github.com/w3c/aria/
+
+Issues for child specs are handled in their original repositories (as listed in https://www.w3.org/groups/wg/aria/tools/ ).
 
 If you plan to contribute changes to the specifications by providing
 pull requests, please link your Github and W3C accounts at:
   https://www.w3.org/users/myprofile/connectedaccounts
+  
+and ask Daniel Montalvo <dmontalvo@w3.org> to add you to the relevant ARIA Teams on GitHub.
 
 # Public Mailing List
 In addition, the Working Group uses its public mailing lists for
