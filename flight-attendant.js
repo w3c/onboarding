@@ -39,13 +39,13 @@ function welcome(userid, username, groupid, cb) {
           getCc(group.id)
             .then(cc => {
               if (process.env.NODE_ENV == 'production') {
-                mail = { to: address, from: "sysbot+onboarding@w3.org", cc: cc };
+                mail = { to: address, from: "W3C group onboarding <cb+onboarding@w3.org>", cc: cc };
               } else {
                 console.log("Cc: %s\n", cc);
                 mail = { to: "carine@w3.org", from: "carine+test@w3.org" };
                 mail.headers = { 'x-onboarding-test-cc' : cc } ;
               }
-              mail.subject = "[W3C onboarding] Welcome to the " + group.name;
+              mail.subject = "[W3C onboarding] Welcome to the " + group.name;	              mail.headers = { 'Auto-Submitted' : 'auto-generated', 'Precedence': 'bulk' };
               getGroupTemplate(group.shortname, type)
                 .then(template => {
                   var t = twig({
