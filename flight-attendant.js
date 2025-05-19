@@ -45,7 +45,8 @@ function welcome(userid, username, groupid, cb) {
                 mail = { to: "carine@w3.org", from: "carine+test@w3.org" };
                 mail.headers = { 'x-onboarding-test-cc' : cc } ;
               }
-              mail.subject = "[W3C onboarding] Welcome to the " + group.name;	              mail.headers = { 'Auto-Submitted' : 'auto-generated', 'Precedence': 'bulk' };
+              mail.subject = "[W3C onboarding] Welcome to the " + group.name;
+              mail.headers = { 'Auto-Submitted' : 'auto-generated', 'Precedence': 'bulk' };
               getGroupTemplate(group.shortname, type)
                 .then(template => {
                   var t = twig({
