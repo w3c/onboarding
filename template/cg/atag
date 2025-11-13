@@ -1,0 +1,23 @@
+{% set shorttype = 'cg' %}
+
+Welcome to the W3C {{ group.name }}, also known as ATAG!
+
+You can find information about the {{ group.name }} linked from:
+  https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/
+
+For meetings, check the group calendar at
+  https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/calendar/
+
+If you have not already done so, please link your GitHub account to your W3C account using
+  https://www.w3.org/users/myprofile/connectedaccounts/
+If you do not have a GitHub account, we highly encourage you to create one! 
+
+Our GitHub repository, where we conduct editorial work, track issues, and hold discussions is 
+  https://www.github.com/w3c-cg/atag
+
+All participants in the {{ group.name }} are expected to behave in accordance with the W3C Code of Conduct
+  https://www.w3.org/policies/code-of-conduct/
+
+If you have any questions or concerns, you can reach the {{ group.name }} chair directly.
+
+We are excited to have you!
