@@ -1,6 +1,6 @@
 Welcome to the Internationalization Working Group!
 
-Addison Phillips and Joel Sahleen is the Chair of the Working Group.  Richard Ishida and Fuqiao Xue are the main W3C staff contacts for the Working Group.
+Addison Phillips and Joel Sahleen are the Chair of the Working Group.  Richard Ishida and Fuqiao Xue are the main W3C staff contacts for the Working Group.
 
 The following is some orientation information. It's long, but dip into it as you need.  The key things are:
 
@@ -8,7 +8,7 @@ The following is some orientation information. It's long, but dip into it as you
 2. We do hope you'll be able to participate in the teleconferences.
 3. If you are interested in and able to review W3C (and/or Unicode) specs when we receive requests, that will be particularly helpful.  (If not, there are other ways to help.)
 
-Please send a brief note to Addison, Joel, Richard and Fuqiao to let us know what you're interested in and what you'd like to get out of being a member of the Working Group.
+Please send a brief note to Addison, Joel, Richard, and Fuqiao to let us know what you're interested in and what you'd like to get out of being a member of the Working Group.
 
 
 ---
@@ -20,17 +20,25 @@ Here's the detail...
 
 HOME PAGES
 
-The main page for access to the information of the i18n Activity is https://www.w3.org/International/. This is where we post news, and links to the various types of information available on the site. In particular, you may want to check out the links just below the introductory paragraph, when you get a moment.
+The main page for access to the information of the i18n Activity is:
+https://www.w3.org/International/
 
-The Internationalization Working Group (i18n WG), has a home page at https://www.w3.org/International/i18n-activity/i18n-wg/. This page gives practical information about the group, such as meetings, mailing lists, etc.
+This is where we post news and links to the various types of information available on the site. In particular, you may want to check out the links just below the introductory paragraph.
 
+The Internationalization Working Group (i18n WG) has a home page at:
+https://www.w3.org/International/i18n-activity/i18n-wg/
+
+This page gives practical information about the group, such as meetings, mailing lists, etc.
 
 
 TELECONFERENCES
 
-We hope you will be able to attend the weekly WG teleconferences. You can find information about weekly meeting times, teleconference numbers and IRC channel info at https://www.w3.org/groups/wg/i18n-core/calendar, but you'll also be sent the information prior to each meeting in the agenda. You'll need to use your W3C login to see that information; please don't share any meeting details in a public location (including the meeting IRC channel) to avoid toll fraud.
+We hope you will be able to attend the weekly WG teleconferences. You can find information about weekly meeting times, teleconference numbers, and IRC channel info at:
+https://www.w3.org/groups/wg/i18n-core/calendar
 
-Currently teleconferences are held once a week on Thursday. The teleconference is scheduled in the `Europe/London` time zone, so the time in UTC changes according to that time zone’s observance of summer time. It is at 1500 UTC during the winter and 1400 UTC during the summer.
+You'll also be sent the information prior to each meeting in the agenda. You'll need to use your W3C login to see that information; please don't share any meeting details in a public location (including the meeting IRC channel) to avoid toll fraud.
+
+Currently, teleconferences are held once a week on Thursday. The teleconference is scheduled in the Europe/London time zone, so the time in UTC changes according to that time zone’s observance of summer time. It is at 1500 UTC during the winter and 1400 UTC during the summer.
 
 
 FACE TO FACE MEETINGS
@@ -45,17 +53,19 @@ We use IRC a lot during meetings to record minutes and also to share URIs, examp
 It would be a good idea to try to connect to an IRC channel using the information provided to test that you are able to do so.
 
 Here is the information you need to connect. You can use an IRC client (recommended), or just use a Web browser.
-IRC channel  : #i18n on irc.w3.org:6667
-IRC via the Web  : https://webirc.w3.org/#/connect (#i18n channel)
+
+  IRC channel:    #i18n on irc.w3.org:6667
+  IRC via the Web: https://webirc.w3.org/#/connect (#i18n channel)
 
 This information, and more, is sent out in the agenda prior to the weekly meeting.
 
 
 MAILING LISTS & GITHUB
 
-Note that we try to hold all technical discussions in GitHub issues. If you don't already have a GitHub account, please get one (it's very easy and painless), and let the staff contact know your id so that they can give you the necessary privileges.
+We try to hold all technical discussions in GitHub issues. If you don't already have a GitHub account, please get one (it's very easy and painless), and let the Staff Contact know your id so that they can give you the necessary privileges.
 
-You can find a list of links to our GitHub repositories at https://www.w3.org/International/i18n-drafts/nav/about#groups.
+You can find a list of links to our GitHub repositories at:
+https://www.w3.org/International/i18n-drafts/nav/about#groups
 
 Here is a list of mailing lists that you have been subscribed to as a matter of course. Let us know if you want to be removed from any.
 
@@ -67,23 +77,27 @@ You are automatically subscribed to the public-i18n-core, member-i18n-core, and 
 
 • member-i18n-core Used for any member-confidential discussions (which are very rare). Occasionally the group uses this list to talk amongst itself, and proposed review comments are sent here for discussion before sending on to the working group concerned. The archive is at https://lists.w3.org/Archives/Member/member-i18n-core/.
 
-We also have an array of more specialised lists, many of them serving the script/language-specific task forces. For a list of these mailing lists see https://www.w3.org/International/i18n-drafts/nav/about#groups. That points to archives for the public lists, from where you can find subscription links. Feel free to subscribe to any of these lists that interest you. (Again, they are mostly used for notifications of GitHub issue activity.)
+We also have an array of more specialized lists, many of them serving the script/language-specific task forces. For a list of these mailing lists, see:
+https://www.w3.org/International/i18n-drafts/nav/about#groups
+
+That points to archives for the public lists, from where you can find subscription links. Feel free to subscribe to any of these lists that interest you. (Again, they are mostly used for notifications of GitHub issue activity.)
 
 
 PARTICIPATING IN THE GROUP WORK
 
 The Working Group has fingers in so many pies that it can be a little disorienting or confusing for new people at first. Your participation in the WG will be driven mostly by your interests, so please look for areas where you are interested in contributing and feel free to volunteer or champion an area that is particularly interesting to you.
 
-You can discuss those with Addison, Joel, Richard or Fuqiao, by email or by a call, if you like.
+You can discuss those with Addison, Joel, Richard, or Fuqiao, by email or by a call, if you like.
 
-As you attend the teleconferences and read the emails you will slowly pick up more ideas of what we're doing and things you can help with too. Of course, we are always looking for help with reviewing the specs of other Working Groups†. It would help us if you could let us know what kind of specs from the wider W3C you are most interested in. (That may, of course, develop and change over time.) That way, we can bear you in mind when something comes up on the radar for review that is likely to be of interest to you.
+As you attend the teleconferences and read the emails you will slowly pick up more ideas of what we're doing and things you can help with too. Of course, we are always looking for help with reviewing the specs of other Working Groups. It would help us if you could let us know what kind of specs from the wider W3C you are most interested in. (That may, of course, develop and change over time.) That way, we can bear you in mind when something comes up on the radar for review that is likely to be of interest to you.
 
 We also welcome help with reviewing or creating educational materials and tests, participation in layout requirements task forces, etc, etc.
 
-Don't hesitate to ask me if you have any questions or difficulties.
+Don't hesitate to ask if you have any questions or difficulties.
 
 
 CODE OF CONDUCT
+
 Everyone who is involved in i18n is expected to behave in accordance with the W3C Code of Conduct:
 https://www.w3.org/policies/code-of-conduct/
 
@@ -91,6 +105,17 @@ https://www.w3.org/policies/code-of-conduct/
 ---
 
 
-† Choose the ones you have an interest in or that you think may widen your awareness, and don't worry about revisiting recently reviewed specs and raising new issues if you spot any. See the review radar for suggestions, at https://github.com/orgs/w3c/projects/91/views/1 and see the steps for raising comments on specs at https://w3c.github.io/i18n-activity/guidelines/review-instructions.html
+NOTES ON SPEC REVIEWS
 
-As you are doing reviews you may want to confirm your ideas and/or get some additional ideas of what to check for. We need to work on this kind of thing more, but there are some resources that can help from time to time. In particular, check out the 'techniques' page at https://www.w3.org/TR/international-specs/. In that page you can expand sections title "Show the self-review checklist" – these provide useful checklists for doing review work.
+Choose the ones you have an interest in or that you think may widen your awareness, and don't worry about revisiting recently reviewed specs and raising new issues if you spot any.
+
+See the review radar for suggestions:
+https://github.com/orgs/w3c/projects/91/views/1
+
+See the steps for raising comments on specs:
+https://w3c.github.io/i18n-activity/guidelines/review-instructions.html
+
+As you are doing reviews, you may want to confirm your ideas and/or get some additional ideas of what to check for. We need to work on this kind of thing more, but there are some resources that can help from time to time. In particular, check out the 'techniques' page:
+https://www.w3.org/TR/international-specs/
+
+In that page you can expand sections titled "Show the self-review checklist" - these provide useful checklists for doing review work.
