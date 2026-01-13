@@ -78,37 +78,3 @@ Example deliverable: Pronunciation Gap Analysis and Use Cases: <https://www.w3.o
 The Research Questions Task Force (RQTF) works to identify accessibility knowledge gaps and barriers in emerging and future web technologies, and to identify research findings, researchers, and research opportunities to inform and fill those gaps where possible.
 
 Example of one deliverable: The XR Accessibility User Requirements ('XAUR') - one of several '*AUR' documents covering a range of technology applications: <https://www.w3.org/TR/xaur/>
-
-// Cognitive Accessibility Task Force ('COGA')
-
-The Cognitive and Learning Disabilities Accessibility Task Force will develop draft proposed guidance and techniques to make web content, content authoring, and user agent implementation accessible and more useable by people with cognitive and learning disabilities.
-
-Example deliverable: 'Making Content Usable for People with Cognitive and Learning Disabilities': <https://www.w3.org/TR/coga-usable/>
-
-
-// Framework for Accessibility in the Specification of Technologies Task Force ('FAST')
-
-This TF develops the FAST, collects user and functional needs, develops guidance to meet those needs in technologies, and works with other groups to develop this guidance for content developers.
-
-FAST TF home page: <https://www.w3.org/WAI/APA/task-forces/fast/>
-
-
-// Maturity Model Task Force ('Maturity')
-
-The Maturity Model Task Force is to craft an Accessibility Maturity Model (AMM) narrative and assessment tool in support of W3C standards and other related guidance, such as Web Content Accessibility Guidelines (WCAG) and Accessibility Rich Internet Applications (ARIA), in consultation with the APA Working Group. Specifically, the MMTF Accessibility Maturity Model will assist organizations in building capacity to develop, and maintain, accessible products or services.
-
-Example deliverable: Accessibility Maturity Model: <https://www.w3.org/TR/maturity-model/>
-
-
-// Pronunciation Task Force ('Pronunciation')
-
-The Spoken Presentation Task Force will develop normative specifications and best practices guidance collaborating with other W3C groups as appropriate, to provide for proper pronunciation in HTML content when using text to speech (TTS) synthesis.
-
-Example deliverable: Pronunciation Gap Analysis and Use Cases: <https://www.w3.org/TR/pronunciation-gap-analysis-and-use-cases/>
-
-
-// Research Questions Task Force ('RQTF')
-
-The Research Questions Task Force (RQTF) works to identify accessibility knowledge gaps and barriers in emerging and future web technologies, and to identify research findings, researchers, and research opportunities to inform and fill those gaps where possible.
-
-Example of one deliverable: The XR Accessibility User Requirements ('XAUR') - one of several '*AUR' documents covering a range of technology applications: <https://www.w3.org/TR/xaur/>
