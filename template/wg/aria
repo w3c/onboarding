@@ -5,7 +5,7 @@ Working Group Summary, Participants, Charters, Tools, Publications, Task Forces 
 https://www.w3.org/groups/wg/aria
 
 # Meeting Information 
-The main group meets [weekly on Thursdays at 1PM Eastern](https://www.w3.org/groups/wg/aria/calendar/), and the ARIA Practices task force meets [weekly on Tuesdays at 2PM Eastern](https://www.w3.org/groups/tf/aria-practices/calendar/).
+The main group meets [weekly on Thursdays at 1PM Eastern](https://www.w3.org/groups/wg/aria/calendar/), and the ARIA Practices task force meets [biweekly on Wednesdays at 12PM Eastern](https://www.w3.org/groups/tf/aria-practices/calendar/).
 You can find more details at https://www.w3.org/WAI/about/groups/ariawg/
 
 The group usually meets face-to-face once or twice a year.
@@ -15,7 +15,7 @@ The group usually meets face-to-face once or twice a year.
 is a complete map of useful resources for new participants in this group.
 
 # GitHub
-The Working Group does most of its work on the WAI-ARIA GitHub monorepo
+The Working Group does most of its work on the ARIA GitHub monorepo
   https://www.github.com/w3c/aria/
 
 Issues for child specs are handled in their original repositories (as listed in https://www.w3.org/groups/wg/aria/tools/ ).
