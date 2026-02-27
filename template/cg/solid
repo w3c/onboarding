@@ -1,0 +1,49 @@
+{% set shorttype = 'cg' %}
+
+Welcome to the W3C {{ group.name }}!
+
+Here's some quick links:
+
+
+Meetings and communications channels:
+=====================================
+
+You can find information about the {{ group.name }} linked from:
+https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/
+
+For meetings, check the group calendar at:
+https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/calendar/
+
+We currently run the CG meetings, which are specification and global-roadmap focused, and the practitioners meetings, with a focus on app development and concrete Solid application.
+
+We communicate over Matrix on the following channels:
+
+ - Practitioners: https://matrix.to/#/#solid-practitioners:matrix.org
+
+ - Solid-CG: https://matrix.to/#/#solid\_specification:gitter.im
+
+
+
+
+Others helpful resources:
+=========================
+
+
+Our GitHub repository, where we keep technical reports and meeting minutes:
+https://github.com/solid/specification
+
+We have a catalog which gathers all the effort around Solid; if you have a project (even if still in a WIP state), please add a new record there:
+https://solidproject.solidcommunity.net/catalog/#
+
+For more general contributing, this is our guideline:  https://github.com/w3c-cg/solid/blob/main/CONTRIBUTING.md
+
+All participants in the {{ group.name }} are expected to behave in accordance with the W3C Code of Conduct
+https://www.w3.org/policies/code-of-conduct/ as well as the groub charter https://www.w3.org/community/solid/charter/
+
+
+
+If you have any questions or concerns, you can ask in the matrix channels above or contact the {{ group.name }} chair directly by email.
+
+We are excited to have you!
+
+Solid Community Group 
