@@ -1,29 +1,32 @@
 Welcome to the W3C EPUB 3 Working Group!
 
-We are delighted to have you join us. Our mission is to maintain and develop the EPUB 3 family of specifications, to represent the EPUB community in the W3C, and to support EPUB 3 content creators and consumers by further advancing, refining, and clarifying the current EPUB 3 specification.
+We are delighted to have you join us. Our mission is to maintain and develop the EPUB 3 family of specifications, to represent the EPUB community in the W3C, and to support EPUB 3 content creators and consumers by further advancing refining, and clarifying the current EPUB 3 specification.
 
-Our co-chairs are Dave Cramer (Invited Expert), Shinya Takami (Kadokawa/Bookwalker), and Wendy Reid (Rakuten Kobo). Our staff contact is Ivan Herman.
+Our co-chairs are Shinya Takami (Kadokawa/Bookwalker), Wendy Reid (Invited Expert), and Susan Neuhaus (Invited Expert). Our staff contact is Ivan Herman.
 
 You will find all information on the Working Group on the Group's home page:
 
-  https://www.w3.org//publishing/groups/epub-wg/
+  https://www.w3.org/groups/wg/pm/
 
 In particular, you can find:
 
-our Work mode: 
+our work mode: 
   https://www.w3.org/publishing/groups/epub-wg/WorkMode/
+  
+our tools:
+  https://www.w3.org/groups/wg/pm/tools/
 
 meeting schedules and details:
-  https://www.w3.org/publishing/groups/epub-wg/Meetings/
+  https://github.com/w3c/pm-wg/tree/main/meetings
 
 publication status and milestones:
-  https://www.w3.org/publishing/groups/epub-wg/PublStatus
+  https://www.w3.org/groups/wg/pm/publications/
 
 current participants:
-  https://www.w3.org/groups/wg/epub/participants?sortaff=1
+  https://www.w3.org/groups/wg/pm/participants/
 
 list of the group repositories on github:
-  https://github.com/topics/epub-wg
+  https://www.w3.org/groups/wg/pm/tools/#repositories
 
 All participants are required to follow the W3C Code of Conduct:
   https://www.w3.org/policies/code-of-conduct/
@@ -32,5 +35,5 @@ All participants are required to follow the W3C Code of Conduct:
 Should you have any questions on how to get up to speed with the group, please get in touch with us, e.g., by using the chairs' mailing list:
   group-epub-wg-chairs@w3.org
 
-Dave, Shinya, Wendy, and Ivan
+Shinya, Wendy, Susan, and Ivan
 
