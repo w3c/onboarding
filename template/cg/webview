@@ -1,0 +1,30 @@
+{% set shorttype = 'cg' %}
+
+A warm welcome to the W3C {{ group.name }}!
+
+Together we work on improving WebViews for everyone. All documents and projects can be found in our GitHub organization at:
+  https://www.github.com/WebView-CG
+
+The website https://caniwebview.com is an informational site where we document the state of WebView support across platforms.
+
+More links for important resources:
+
+You can find information about the {{ group.name }} linked from:
+  https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/
+
+For meetings, check the group calendar at
+  https://www.w3.org/groups/{{ shorttype }}/{{ group.shortname }}/calendar/
+
+W3C also has an informal Slack workspace and you are invited to join the #webview-cg channel there. To join, see:
+  https://www.w3.org/slack-w3ccommunity-invite
+
+If you have not already done so, please link your GitHub account to your W3C account using
+  https://www.w3.org/users/myprofile/connectedaccounts/
+If you do not have a GitHub account, we highly encourage you to create one! 
+
+All participants in the {{ group.name }} are expected to behave in accordance with the W3C Code of Conduct
+  https://www.w3.org/policies/code-of-conduct/
+
+If you have any questions or concerns, you can reach the {{ group.name }} chair directly.
+
+We are excited to have you!
