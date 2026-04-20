@@ -1,0 +1,23 @@
+
+Welcome to the {{ group.name }}, and thank you for joining!
+
+The {{ group.name }} was established in 2018 in response to the growing role of machine learning–based AI in technology. During that period, increasing attention was given to the “black box” nature of AI systems — particularly challenges related to explainability, transparency, and replicability.
+
+The group was founded on the understanding that Knowledge Representation (KR) can play a key role in supporting the understanding and explainability of AI systems.
+
+As AI has evolved — especially with the emergence of large language models — the relevance of natural language–based knowledge representation has increased significantly. Today, language models serve as natural language interfaces to AI tools, applications, and environments, including systems that do not have native LLM interfaces.
+
+The primary focus of the {{ group.name }} is therefore to explore how natural language interfaces are being integrated into AI architectures at multiple levels, and how Knowledge Representation can support interoperability, explainability, structured prompting, and trustworthy AI integration.
+
+You can find information about the {{ group.name }} here:
+  https://www.w3.org/community/{{ CG }}/
+
+A summary of where we are at is available here:
+  https://www.w3.org/community/{{ CG }}/wiki/Welcome_Post
+
+Participants in the {{ group.name }} are expected to behave in accordance with the W3C Code of Conduct:
+  https://www.w3.org/policies/code-of-conduct/
+
+If you have any questions or concerns, you can reach the {{ group.name }} chairs and team contacts (in Cc of this message) directly.
+
+{% endif %}
