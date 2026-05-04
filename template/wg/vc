@@ -20,16 +20,20 @@ publication status and milestones:
 current participants:
   https://www.w3.org/groups/wg/vc/participants?sortaff=1
 
-list of the group repositories on GitHub:
+The Working Group works almost exclusively on GitHub. This means that you should have a GitHub identifier,
+which should also be connected to your W3C account:
+  https://www.w3.org/users/myprofile/connectedaccounts/
+
+Here is the list of the group repositories on GitHub:
   https://www.w3.org/groups/wg/vc/tools/
 
-Note that the Working Group mostly works through Task Forces:
+The Working Group mostly works through Task Forces:
   https://www.w3.org/groups/wg/vc/task-forces/
 
 Each task force concentrates on particular subjects within the scope of the Working Group. They have their own
 meeting schedules, GitHub repositories, etc. You are strongly encouraged to join one or several of those task
-forces. At the moment, this requires you to send a mail to Ivan Herman, who will be happy to add you to
-the respective task forces' participant lists.
+forces. This requires you to send a mail to Ivan Herman, who will be happy to add you to the respective
+task forces' participant lists.
 
 All participants are required to follow the W3C Code of Conduct:
   https://www.w3.org/policies/code-of-conduct/
