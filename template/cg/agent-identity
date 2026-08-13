@@ -1,0 +1,34 @@
+Hello, and welcome to the {{ group.name }}!
+
+Our group aims to develop shared understanding, use cases, requirements, and community specifications for cross-organizational AI agent identity and authorization. 
+
+AI agents are increasingly operating across organizational boundaries with no open standard governing how they prove identity, who authorized them, or how they can be stopped if something goes wrong. This group develops open specifications for a cross-organizational agent identity registry — enabling verifiable, cryptographically signed credentials that travel with agents across trust domains, built on W3C Verifiable Credentials, Decentralized Identifiers, and post-quantum cryptography.
+
+Note: 'ARIA' in our group name refers to the Agent Registry for Identity & Authorization protocol. It is unrelated to W3C WAI-ARIA (Accessible Rich Internet Applications).
+
+You will find information about the group at:
+  https://www.w3.org/groups/cg/agent-identity/
+
+For meetings and upcoming calls, check the group calendar at:
+  https://www.w3.org/groups/cg/agent-identity/calendar/
+
+A few more useful links:
+
+* Charter: https://github.com/w3c-cg/agent-identity/blob/main/CHARTER.md
+* GitHub repository: https://github.com/w3c-cg/agent-identity
+* Mailing list: public-agent-identity@w3.org
+* ARIA Protocol: https://aria.bar
+* TrustLayer Foundation governance: https://github.com/Trustlayer-Foundation/public-documents
+
+If you have not already done so, please link your GitHub and W3C accounts:
+  https://www.w3.org/users/myprofile/connectedaccounts/
+
+All participants are expected to follow the W3C Code of Conduct:
+  https://www.w3.org/policies/code-of-conduct/
+
+Please introduce yourself on the mailing list — we look forward to working with you.
+
+If you have any questions, you can reach the chairs (in Cc of this message) directly.
+
+Adolfo Grego Micha
+Chair, Agent Identity Registry Protocol Community Group
