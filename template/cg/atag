@@ -15,9 +15,12 @@ If you do not have a GitHub account, we highly encourage you to create one!
 Our GitHub repository, where we conduct editorial work, track issues, and hold discussions is 
   https://www.github.com/w3c-cg/atag
 
+You can find minutes from our previous meetings and links to other resources at 
+  https://w3c-cg.github.io/atag/
+
 All participants in the {{ group.name }} are expected to behave in accordance with the W3C Code of Conduct
   https://www.w3.org/policies/code-of-conduct/
 
-If you have any questions or concerns, you can reach the {{ group.name }} chair directly.
+If you have any questions or concerns, you can reach the {{ group.name }} chair directly through the W3C Community Slack #atag channel, direct message, or email.
 
 We are excited to have you!
