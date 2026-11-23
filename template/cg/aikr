@@ -1,7 +1,7 @@
 
-Welcome to the {{ group.name }}, and thank you for joining!
+WWelcome to the {{ group.name }}, and thank you for joining!
 
-The {{ group.name }} was established in 2018 in response to the growing role of machine learning–based AI in technology. During that period, increasing attention was given to the “black box” nature of AI systems — particularly challenges related to explainability, transparency, and replicability.
+The {{ group.name }} was established in 2018 in response to the growing role of machine learning–based AI in technology. During that period, increasing attention was given to the "black box" nature of AI systems — particularly challenges related to explainability, transparency, and replicability.
 
 The group was founded on the understanding that Knowledge Representation (KR) can play a key role in supporting the understanding and explainability of AI systems.
 
@@ -14,6 +14,15 @@ You can find information about the {{ group.name }} here:
 
 A summary of where we are at is available here:
   https://www.w3.org/community/{{ CG }}/wiki/Welcome_Post
+
+Our working files and contributions are kept in the group repository. Participants can comment by opening issues or pull requests:
+  https://github.com/w3c-cg/aikr
+
+The Agentic Trust Initiative Explorer compares agent trust and identity protocols and specifications:
+  https://w3c-cg.github.io/aikr/trust/trustinitiativeexplorer.html
+
+The Trust KR Task Force is working on a human-readable representation of the dimensions of trust in AI. Its mission statement is open for discussion, and new contributors are welcome:
+  https://github.com/w3c-cg/aikr/blob/main/trust/trust-kr-taskforce.md
 
 Please introduce yourself to the group with a post if you like.
 
