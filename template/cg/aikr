@@ -1,5 +1,5 @@
 
-WWelcome to the {{ group.name }}, and thank you for joining!
+Welcome to the {{ group.name }}, and thank you for joining!
 
 The {{ group.name }} was established in 2018 in response to the growing role of machine learning–based AI in technology. During that period, increasing attention was given to the "black box" nature of AI systems — particularly challenges related to explainability, transparency, and replicability.
 
